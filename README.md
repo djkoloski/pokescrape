@@ -3,7 +3,8 @@ A Pokedex builder that scrapes information from Bulbapedia
 
 # Goals:
 Each pokemon should have information on:
-  A national dex number
+
+	A national dex number
 	Name
 	Species name
 	Type combination:
