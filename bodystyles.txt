@@ -177,7 +177,7 @@
 027	Sandshrew	Sandshrew	Ground
 028	Sandslash	Sandslash	Ground
 031	Nidoqueen	Nidoqueen	Poison	Ground
-034	Nidorina	Nidoking	Poison	Ground
+034	Nidoking	Nidoking	Poison	Ground
 035	Clefairy	Clefairy	Fairy
 036	Clefable	Clefable	Fairy
 054	Psyduck	Psyduck	Water
@@ -229,7 +229,7 @@
 253	Grovyle	Grovyle	Grass
 254	Sceptile	Sceptile	Grass
 256	Combusken	Combusken	Fire	Fighting
-257	Swampert	Blaziken	Fire	Fighting
+257	Blaziken	Blaziken	Fire	Fighting
 259	Marshtomp	Marshtomp	Water	Ground
 260	Swampert	Swampert	Water	Ground
 286	Breloom	Breloom	Grass	Fighting
