@@ -51,14 +51,14 @@ def main():
 	"description":"%s"
 }%s
 """ % (
-			m.name,
+			m.name.replace('\u00E9', '&eacute;'),
 			m.type,
 			m.pp,
 			m.power,
 			m.accuracy,
 			m.category,
 			m.damage,
-			m.description.replace('"', '\\"'),
+			m.description.replace('"', '\\"').replace('\u00E9', '&eacute;'),
 			',' if i != len(moves) - 1 else ''
 		))
 	
@@ -74,8 +74,8 @@ def main():
 	"description":"%s"
 }%s
 """ % (
-			a.name,
-			a.description.replace('"', '\\"'),
+			a.name.replace('\u00E9', '&eacute;'),
+			a.description.replace('"', '\\"').replace('\u00E9', '&eacute;'),
 			',' if i != len(abilities) - 1 else ''
 		))
 	
@@ -145,10 +145,10 @@ def main():
 			p.body_style,
 			p.color,
 			p.base_stats[0], p.base_stats[1], p.base_stats[2], p.base_stats[3], p.base_stats[4], p.base_stats[5],
-			p.pokedex_x.replace('"', '\\"'),
-			p.pokedex_y.replace('"', '\\"'),
-			p.pokedex_or.replace('"', '\\"'),
-			p.pokedex_as.replace('"', '\\"'),
+			p.pokedex_x.replace('"', '\\"').replace('\u00E9', '&eacute;'),
+			p.pokedex_y.replace('"', '\\"').replace('\u00E9', '&eacute;'),
+			p.pokedex_or.replace('"', '\\"').replace('\u00E9', '&eacute;'),
+			p.pokedex_as.replace('"', '\\"').replace('\u00E9', '&eacute;'),
 			str([i[1] for i in p.learnset_level_xy]),
 			str([i[0] for i in p.learnset_level_xy]),
 			str([i[1] for i in p.learnset_level_oras]),
