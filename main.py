@@ -1,15 +1,20 @@
-import os.path
-import fetch
-import pkspecies
-import pktypes
-import pkabilities
+import parse
 
-if os.path.exists('cache') == False:
-	os.makedirs('cache')
-if os.path.exists('data') == False:
-	os.makedirs('data')
+def main():
+	print(parse.GetAndParse(717))
+	print()
+	print(parse.GetAndParse(610))
+	print()
+	print(parse.GetAndParse(560))
+	print()
+	print(parse.GetAndParse(430))
+	print()
+	print(parse.GetAndParse(250))
+	print()
+	print(parse.GetAndParse(150))
+	print()
+	print(parse.GetAndParse(133))
+	print()
+	print(parse.GetAndParse(1))
 
-fetch.GetAndParse('Species', 'cache/species.html', 'data/species.txt', pkspecies.Parser())
-fetch.GetAndParse('List_of_Pokemon_by_National_Pokedex_number', 'cache/type.html', 'data/type.txt', pktypes.Parser())
-fetch.GetAndParse('List_of_Pokemon_by_abilities', 'cache/ability.html', 'data/ability.txt', pkabilities.Parser())
-
+main()

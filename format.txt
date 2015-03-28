@@ -99,7 +99,6 @@ Each pokemon needs:
 		8:  Red
 		9:  White
 		10: Yellow
-	Base friendship
 	Base stats
 	Pokedex entry (ORAS)
 	Learnset:
