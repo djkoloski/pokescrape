@@ -167,7 +167,8 @@ class Pokemon:
 		self.base_stats = (0, 0, 0, 0, 0, 0)
 		self.pokedex_x = None
 		self.pokedex_y = None
-		self.pokedex_oras = None
+		self.pokedex_or = None
+		self.pokedex_as = None
 		self.learnset_level_xy = []
 		self.learnset_level_oras = []
 		self.learnset_machine = []
@@ -200,5 +201,14 @@ class Pokemon:
 			'\nBase Stats: %i/%i/%i/%i/%i/%i' % self.base_stats +
 			'\nPokedex Entry (X): %s' % self.pokedex_x +
 			'\nPokedex Entry (Y): %s' % self.pokedex_y +
-			'\nPokedex Entry (ORAS): %s' % self.pokedex_oras)
+			'\nPokedex Entry (OR): %s' % self.pokedex_or +
+			'\nPokedex Entry (AS): %s' % self.pokedex_as +
+			'\nLearnset (XY): %s' % str(self.learnset_level_xy) +
+			'\nLearnset (ORAS): %s' % str(self.learnset_level_oras) +
+			'\nLearnset (TM/HM): %s' % str(self.learnset_machine) +
+			'\nLearnset (Egg Move): %s' % str(self.learnset_egg_move) +
+			'\nLearnset (Tutor): %s' % str(self.learnset_tutor) +
+			'\nLearnset (Special): %s' % str(self.learnset_special) +
+			'\nLearnset (Pre-evo): %s' % str(self.learnset_evolve) +
+			'\nLearnset (Transfer): %s' % str(self.learnset_transfer))
 
