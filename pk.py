@@ -1,3 +1,5 @@
+num_pokemon = 721
+
 PkType = {
 	'none': 0,
 	'normal': 1,

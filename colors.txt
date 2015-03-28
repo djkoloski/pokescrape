@@ -1,0 +1,135 @@
+8
+Charmander	Charmander	Charmeleon	Charmeleon	Charizard	Charizard	Vileplume	Vileplume	Paras	Paras	Parasect	Parasect
+Krabby	Krabby	Kingler	Kingler	Voltorb	Voltorb	Electrode	Electrode	Goldeen	Goldeen	Seaking	Seaking
+Jynx	Jynx	Magmar	Magmar	Magikarp	Magikarp	Flareon	Flareon	Ledyba	Ledyba	Ledian	Ledian
+Ariados	Ariados	Yanma	Yanma	Scizor	Scizor	Slugma	Slugma	Magcargo	Magcargo	Octillery	Octillery
+Delibird	Delibird	Porygon2	Porygon2	Magby	Magby	Ho-Oh	Ho-Oh	Torchic	Torchic	Combusken	Combusken
+Blaziken	Blaziken	Wurmple	Wurmple	Medicham	Medicham	Carvanha	Carvanha	Camerupt	Camerupt	Solrock	Solrock
+Corphish	Corphish	Crawdaunt	Crawdaunt	Latias	Latias	Groudon	Groudon	Deoxys	Deoxys	Kricketot	Kricketot
+Kricketune	Kricketune	Magmortar	Magmortar	Porygon-Z	Porygon-Z	Rotom	Rotom	Tepig	Tepig	Pignite	Pignite
+Emboar	Emboar	Pansear	Pansear	Simisear	Simisear	Throh	Throh	Venipede	Venipede	Scolipede	Scolipede
+Krookodile	Krookodile	Darumaka	Darumaka	Darmanitan	Darmanitan	Dwebble	Dwebble	Crustle	Crustle	Scrafty	Scrafty
+Shelmet	Shelmet	Accelgor	Accelgor	Druddigon	Druddigon	Pawniard	Pawniard	Bisharp	Bisharp	Braviary	Braviary
+Heatmor	Heatmor	Fennekin	Fennekin	Braixen	Braixen	Delphox	Delphox	Fletchling	Fletchling	Fletchinder	Fletchinder
+Talonflame	Talonflame	Tyrantrum	Tyrantrum	Yveltal	Yveltal
+2
+Squirtle	Squirtle	Wartortle	Wartortle	Blastoise	Blastoise	Nidoran♀	Nidoran♀	Nidorina	Nidorina	Nidoqueen	Nidoqueen
+Oddish	Oddish	Gloom	Gloom	Golduck	Golduck	Poliwag	Poliwag	Poliwhirl	Poliwhirl	Poliwrath	Poliwrath
+Tentacool	Tentacool	Tentacruel	Tentacruel	Tangela	Tangela	Horsea	Horsea	Seadra	Seadra	Gyarados	Gyarados
+Lapras	Lapras	Vaporeon	Vaporeon	Omanyte	Omanyte	Omastar	Omastar	Articuno	Articuno	Dratini	Dratini
+Dragonair	Dragonair	Totodile	Totodile	Croconaw	Croconaw	Feraligatr	Feraligatr	Chinchou	Chinchou	Lanturn	Lanturn
+Marill	Marill	Azumarill	Azumarill	Jumpluff	Jumpluff	Wooper	Wooper	Quagsire	Quagsire	Wobbuffet	Wobbuffet
+Heracross	Heracross	Kingdra	Kingdra	Phanpy	Phanpy	Suicune	Suicune	Mudkip	Mudkip	Marshtomp	Marshtomp
+Swampert	Swampert	Taillow	Taillow	Swellow	Swellow	Surskit	Surskit	Masquerain	Masquerain	Loudred	Loudred
+Exploud	Exploud	Azurill	Azurill	Meditite	Meditite	Sharpedo	Sharpedo	Wailmer	Wailmer	Wailord	Wailord
+Swablu	Swablu	Altaria	Altaria	Whiscash	Whiscash	Chimecho	Chimecho	Wynaut	Wynaut	Spheal	Spheal
+Sealeo	Sealeo	Walrein	Walrein	Clamperl	Clamperl	Huntail	Huntail	Bagon	Bagon	Salamence	Salamence
+Beldum	Beldum	Metang	Metang	Metagross	Metagross	Regice	Regice	Latios	Latios	Kyogre	Kyogre
+Piplup	Piplup	Prinplup	Prinplup	Empoleon	Empoleon	Shinx	Shinx	Luxio	Luxio	Luxray	Luxray
+Cranidos	Cranidos	Rampardos	Rampardos	Gible	Gible	Gabite	Gabite	Garchomp	Garchomp	Riolu	Riolu
+Lucario	Lucario	Croagunk	Croagunk	Toxicroak	Toxicroak	Finneon	Finneon	Lumineon	Lumineon	Mantyke	Mantyke
+Tangrowth	Tangrowth	Glaceon	Glaceon	Azelf	Azelf	Phione	Phione	Manaphy	Manaphy	Oshawott	Oshawott
+Dewott	Dewott	Samurott	Samurott	Panpour	Panpour	Simipour	Simipour	Roggenrola	Roggenrola	Boldore	Boldore
+Gigalith	Gigalith	Woobat	Woobat	Swoobat	Swoobat	Tympole	Tympole	Palpitoad	Palpitoad	Seismitoad	Seismitoad
+Sawk	Sawk	Tirtouga	Tirtouga	Carracosta	Carracosta	Ducklett	Ducklett	Karrablast	Karrablast	Eelektrik	Eelektrik
+Eelektross	Eelektross	Elgyem	Elgyem	Cryogonal	Cryogonal	Deino	Deino	Zweilous	Zweilous	Hydreigon	Hydreigon
+Cobalion	Cobalion	Thundurus	Thundurus	Froakie	Froakie	Frogadier	Frogadier	Greninja	Greninja	Inkay	Inkay
+Malamar	Malamar	Clauncher	Clauncher	Clawitzer	Clawitzer	Amaura	Amaura	Aurorus	Aurorus	Bergmite	Bergmite
+Avalugg	Avalugg	Xerneas	Xerneas
+10
+Kakuna	Kakuna	Beedrill	Beedrill	Pikachu	Pikachu	Raichu	Raichu	Sandshrew	Sandshrew	Sandslash	Sandslash
+Ninetales	Ninetales	Meowth	Meowth	Persian	Persian	Psyduck	Psyduck	Ponyta	Ponyta	Rapidash	Rapidash
+Drowzee	Drowzee	Hypno	Hypno	Exeggutor	Exeggutor	Electabuzz	Electabuzz	Jolteon	Jolteon	Zapdos	Zapdos
+Moltres	Moltres	Cyndaquil	Cyndaquil	Quilava	Quilava	Typhlosion	Typhlosion	Pichu	Pichu	Ampharos	Ampharos
+Sunkern	Sunkern	Sunflora	Sunflora	Girafarig	Girafarig	Dunsparce	Dunsparce	Shuckle	Shuckle	Elekid	Elekid
+Raikou	Raikou	Beautifly	Beautifly	Pelipper	Pelipper	Ninjask	Ninjask	Makuhita	Makuhita	Manectric	Manectric
+Plusle	Plusle	Minun	Minun	Numel	Numel	Lunatone	Lunatone	Jirachi	Jirachi	Mothim	Mothim
+Combee	Combee	Vespiquen	Vespiquen	Chingling	Chingling	Electivire	Electivire	Uxie	Uxie	Cresselia	Cresselia
+Victini	Victini	Sewaddle	Sewaddle	Leavanny	Leavanny	Scraggy	Scraggy	Cofagrigus	Cofagrigus	Archen	Archen
+Archeops	Archeops	Deerling	Deerling	Joltik	Joltik	Galvantula	Galvantula	Haxorus	Haxorus	Mienfoo	Mienfoo
+Keldeo	Keldeo	Helioptile	Helioptile	Heliolisk	Heliolisk	Dedenne	Dedenne
+5
+Bulbasaur	Bulbasaur	Ivysaur	Ivysaur	Venusaur	Venusaur	Caterpie	Caterpie	Metapod	Metapod	Bellsprout	Bellsprout
+Weepinbell	Weepinbell	Victreebel	Victreebel	Scyther	Scyther	Chikorita	Chikorita	Bayleef	Bayleef	Meganium	Meganium
+Spinarak	Spinarak	Natu	Natu	Xatu	Xatu	Bellossom	Bellossom	Politoed	Politoed	Skiploom	Skiploom
+Larvitar	Larvitar	Tyranitar	Tyranitar	Celebi	Celebi	Treecko	Treecko	Grovyle	Grovyle	Sceptile	Sceptile
+Dustox	Dustox	Lotad	Lotad	Lombre	Lombre	Ludicolo	Ludicolo	Breloom	Breloom	Electrike	Electrike
+Roselia	Roselia	Gulpin	Gulpin	Vibrava	Vibrava	Flygon	Flygon	Cacnea	Cacnea	Cacturne	Cacturne
+Cradily	Cradily	Kecleon	Kecleon	Tropius	Tropius	Rayquaza	Rayquaza	Turtwig	Turtwig	Grotle	Grotle
+Torterra	Torterra	Budew	Budew	Roserade	Roserade	Bronzor	Bronzor	Bronzong	Bronzong	Carnivine	Carnivine
+Yanmega	Yanmega	Leafeon	Leafeon	Shaymin	Shaymin	Snivy	Snivy	Servine	Servine	Serperior	Serperior
+Pansage	Pansage	Simisage	Simisage	Swadloon	Swadloon	Cottonee	Cottonee	Whimsicott	Whimsicott	Petilil	Petilil
+Lilligant	Lilligant	Basculin	Basculin	Maractus	Maractus	Trubbish	Trubbish	Garbodor	Garbodor	Solosis	Solosis
+Duosion	Duosion	Reuniclus	Reuniclus	Axew	Axew	Fraxure	Fraxure	Golett	Golett	Golurk	Golurk
+Virizion	Virizion	Tornadus	Tornadus	Chespin	Chespin	Quilladin	Quilladin	Chesnaught	Chesnaught	Hawlucha	Hawlucha
+Zygarde	Zygarde
+1
+Snorlax	Snorlax	Umbreon	Umbreon	Murkrow	Murkrow	Unown	Unown	Sneasel	Sneasel	Houndour	Houndour
+Houndoom	Houndoom	Mawile	Mawile	Spoink	Spoink	Seviper	Seviper	Claydol	Claydol	Shuppet	Shuppet
+Banette	Banette	Duskull	Duskull	Dusclops	Dusclops	Honchkrow	Honchkrow	Chatot	Chatot	Munchlax	Munchlax
+Weavile	Weavile	Dusknoir	Dusknoir	Giratina	Giratina	Darkrai	Darkrai	Blitzle	Blitzle	Zebstrika	Zebstrika
+Sigilyph	Sigilyph	Yamask	Yamask	Lampent	Lampent	Chandelure	Chandelure	Zekrom	Zekrom	Scatterbug	Scatterbug
+Spewpa	Spewpa	Vivillon	Vivillon
+3
+Weedle	Weedle	Pidgey	Pidgey	Pidgeotto	Pidgeotto	Pidgeot	Pidgeot	Raticate	Raticate	Spearow	Spearow
+Fearow	Fearow	Vulpix	Vulpix	Diglett	Diglett	Dugtrio	Dugtrio	Mankey	Mankey	Primeape	Primeape
+Growlithe	Growlithe	Arcanine	Arcanine	Abra	Abra	Kadabra	Kadabra	Alakazam	Alakazam	Geodude	Geodude
+Graveler	Graveler	Golem	Golem	Farfetch'd	Farfetch'd	Doduo	Doduo	Dodrio	Dodrio	Cubone	Cubone
+Marowak	Marowak	Hitmonlee	Hitmonlee	Hitmonchan	Hitmonchan	Kangaskhan	Kangaskhan	Staryu	Staryu	Pinsir	Pinsir
+Tauros	Tauros	Eevee	Eevee	Kabuto	Kabuto	Kabutops	Kabutops	Dragonite	Dragonite	Sentret	Sentret
+Furret	Furret	Hoothoot	Hoothoot	Noctowl	Noctowl	Sudowoodo	Sudowoodo	Teddiursa	Teddiursa	Ursaring	Ursaring
+Swinub	Swinub	Piloswine	Piloswine	Stantler	Stantler	Hitmontop	Hitmontop	Entei	Entei	Zigzagoon	Zigzagoon
+Seedot	Seedot	Nuzleaf	Nuzleaf	Shiftry	Shiftry	Shroomish	Shroomish	Slakoth	Slakoth	Slaking	Slaking
+Shedinja	Shedinja	Hariyama	Hariyama	Torkoal	Torkoal	Spinda	Spinda	Trapinch	Trapinch	Baltoy	Baltoy
+Feebas	Feebas	Regirock	Regirock	Chimchar	Chimchar	Monferno	Monferno	Infernape	Infernape	Starly	Starly
+Staravia	Staravia	Staraptor	Staraptor	Bidoof	Bidoof	Bibarel	Bibarel	Buizel	Buizel	Floatzel	Floatzel
+Buneary	Buneary	Lopunny	Lopunny	Bonsly	Bonsly	Hippopotas	Hippopotas	Hippowdon	Hippowdon	Mamoswine	Mamoswine
+Heatran	Heatran	Patrat	Patrat	Watchog	Watchog	Lillipup	Lillipup	Conkeldurr	Conkeldurr	Sandile	Sandile
+Krokorok	Krokorok	Sawsbuck	Sawsbuck	Beheeyem	Beheeyem	Stunfisk	Stunfisk	Bouffalant	Bouffalant	Vullaby	Vullaby
+Mandibuzz	Mandibuzz	Landorus	Landorus	Bunnelby	Bunnelby	Diggersby	Diggersby	Litleo	Litleo	Pyroar	Pyroar
+Skiddo	Skiddo	Gogoat	Gogoat	Honedge	Honedge	Doublade	Doublade	Aegislash	Aegislash	Binacle	Binacle
+Barbaracle	Barbaracle	Skrelp	Skrelp	Dragalge	Dragalge	Tyrunt	Tyrunt	Phantump	Phantump	Trevenant	Trevenant
+Pumpkaboo	Pumpkaboo	Gourgeist	Gourgeist	Volcanion	Volcanion
+7
+Rattata	Rattata	Ekans	Ekans	Arbok	Arbok	Nidoran♂	Nidoran♂	Nidorino	Nidorino	Nidoking	Nidoking
+Zubat	Zubat	Golbat	Golbat	Venonat	Venonat	Venomoth	Venomoth	Grimer	Grimer	Muk	Muk
+Shellder	Shellder	Cloyster	Cloyster	Gastly	Gastly	Haunter	Haunter	Gengar	Gengar	Koffing	Koffing
+Weezing	Weezing	Starmie	Starmie	Ditto	Ditto	Aerodactyl	Aerodactyl	Mewtwo	Mewtwo	Crobat	Crobat
+Aipom	Aipom	Espeon	Espeon	Forretress	Forretress	Gligar	Gligar	Granbull	Granbull	Mantine	Mantine
+Tyrogue	Tyrogue	Cascoon	Cascoon	Delcatty	Delcatty	Sableye	Sableye	Illumise	Illumise	Swalot	Swalot
+Grumpig	Grumpig	Lileep	Lileep	Shellos	Shellos	Gastrodon	Gastrodon	Ambipom	Ambipom	Drifloon	Drifloon
+Drifblim	Drifblim	Mismagius	Mismagius	Stunky	Stunky	Skuntank	Skuntank	Spiritomb	Spiritomb	Skorupi	Skorupi
+Drapion	Drapion	Gliscor	Gliscor	Palkia	Palkia	Purrloin	Purrloin	Liepard	Liepard	Gothita	Gothita
+Gothorita	Gothorita	Gothitelle	Gothitelle	Mienshao	Mienshao	Genesect	Genesect	Goomy	Goomy	Sliggoo	Sliggoo
+Goodra	Goodra	Noibat	Noibat	Noivern	Noivern	Hoopa	Hoopa
+4
+Machop	Machop	Machoke	Machoke	Machamp	Machamp	Magnemite	Magnemite	Magneton	Magneton	Onix	Onix
+Rhyhorn	Rhyhorn	Rhydon	Rhydon	Misdreavus	Misdreavus	Pineco	Pineco	Steelix	Steelix	Qwilfish	Qwilfish
+Remoraid	Remoraid	Skarmory	Skarmory	Donphan	Donphan	Pupitar	Pupitar	Poochyena	Poochyena	Mightyena	Mightyena
+Nincada	Nincada	Nosepass	Nosepass	Aron	Aron	Lairon	Lairon	Aggron	Aggron	Volbeat	Volbeat
+Barboach	Barboach	Anorith	Anorith	Armaldo	Armaldo	Snorunt	Snorunt	Glalie	Glalie	Relicanth	Relicanth
+Registeel	Registeel	Shieldon	Shieldon	Bastiodon	Bastiodon	Burmy	Burmy	Wormadam	Wormadam	Glameow	Glameow
+Purugly	Purugly	Magnezone	Magnezone	Rhyperior	Rhyperior	Probopass	Probopass	Arceus	Arceus	Herdier	Herdier
+Stoutland	Stoutland	Pidove	Pidove	Tranquill	Tranquill	Unfezant	Unfezant	Drilbur	Drilbur	Excadrill	Excadrill
+Timburr	Timburr	Gurdurr	Gurdurr	Whirlipede	Whirlipede	Zorua	Zorua	Zoroark	Zoroark	Minccino	Minccino
+Cinccino	Cinccino	Escavalier	Escavalier	Ferroseed	Ferroseed	Ferrothorn	Ferrothorn	Klink	Klink	Klang	Klang
+Klinklang	Klinklang	Durant	Durant	Terrakion	Terrakion	Kyurem	Kyurem	Espurr	Espurr	Carbink	Carbink
+Klefki	Klefki
+9
+Butterfree	Butterfree	Seel	Seel	Dewgong	Dewgong	Togepi	Togepi	Togetic	Togetic	Mareep	Mareep
+Smeargle	Smeargle	Lugia	Lugia	Linoone	Linoone	Silcoon	Silcoon	Wingull	Wingull	Ralts	Ralts
+Kirlia	Kirlia	Gardevoir	Gardevoir	Vigoroth	Vigoroth	Zangoose	Zangoose	Castform	Castform	Absol	Absol
+Shelgon	Shelgon	Pachirisu	Pachirisu	Snover	Snover	Abomasnow	Abomasnow	Togekiss	Togekiss	Gallade	Gallade
+Froslass	Froslass	Dialga	Dialga	Regigigas	Regigigas	Swanna	Swanna	Vanillite	Vanillite	Vanillish	Vanillish
+Vanilluxe	Vanilluxe	Emolga	Emolga	Foongus	Foongus	Amoonguss	Amoonguss	Frillish	Frillish	Jellicent	Jellicent
+Tynamo	Tynamo	Litwick	Litwick	Cubchoo	Cubchoo	Beartic	Beartic	Rufflet	Rufflet	Larvesta	Larvesta
+Volcarona	Volcarona	Reshiram	Reshiram	Meloetta	Meloetta	Flabébé	Flabébé	Floette	Floette	Florges	Florges
+Pancham	Pancham	Pangoro	Pangoro	Furfrou	Furfrou	Meowstic	Meowstic	Swirlix	Swirlix	Slurpuff	Slurpuff
+6
+Clefairy	Clefairy	Clefable	Clefable	Jigglypuff	Jigglypuff	Wigglytuff	Wigglytuff	Slowpoke	Slowpoke	Slowbro	Slowbro
+Exeggcute	Exeggcute	Lickitung	Lickitung	Chansey	Chansey	Mr. Mime	Mr. Mime	Porygon	Porygon	Mew	Mew
+Cleffa	Cleffa	Igglybuff	Igglybuff	Flaaffy	Flaaffy	Hoppip	Hoppip	Slowking	Slowking	Snubbull	Snubbull
+Corsola	Corsola	Smoochum	Smoochum	Miltank	Miltank	Blissey	Blissey	Whismur	Whismur	Skitty	Skitty
+Milotic	Milotic	Gorebyss	Gorebyss	Luvdisc	Luvdisc	Cherubi	Cherubi	Cherrim	Cherrim	Mime Jr.	Mime Jr.
+Happiny	Happiny	Lickilicky	Lickilicky	Mesprit	Mesprit	Munna	Munna	Musharna	Musharna	Audino	Audino
+Alomomola	Alomomola	Spritzee	Spritzee	Aromatisse	Aromatisse	Sylveon	Sylveon	Diancie	Diancie

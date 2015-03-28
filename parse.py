@@ -6,7 +6,51 @@ from pokemon import *
 from move import *
 from ability import *
 
+nameMap = {}
+baseExpYields = [0 for i in range(0, num_pokemon + 1)]
+colors = [0 for i in range(0, num_pokemon + 1)]
+bodyStyles = [0 for i in range(0, num_pokemon + 1)]
+
 def Init():
+	source = open('baseexpyields.txt')
+	
+	for line in source:
+		pieces = line.split('\t')
+		name = pieces[2].strip().lower()
+		nameMap[name] = int(pieces[0].strip())
+		baseExpYields[nameMap[name]] = int(pieces[3].strip())
+	
+	source.close()
+	
+	source = open('colors.txt')
+	
+	cur_color = 0
+	for line in source:
+		if line.strip().isdigit():
+			cur_color = int(line.strip())
+		else:
+			pieces = line.split('\t')
+			for piece in pieces:
+				name = piece.strip().lower()
+				if name in nameMap:
+					colors[nameMap[name]] = cur_color
+	
+	source.close()
+	
+	source = open('bodystyles.txt')
+	
+	cur_style = 0
+	for line in source:
+		if line.strip().isdigit():
+			cur_style = int(line.strip())
+		else:
+			pieces = line.split('\t')
+			name = pieces[1].strip().lower()
+			if name in nameMap:
+				bodyStyles[nameMap[name]] = cur_style
+	
+	source.close()
+	
 	source = open('moves.txt')
 	
 	for line in source:
@@ -118,6 +162,10 @@ def GetAndParse(number, force = False):
 	parser = PokemonParser()
 	parser.feed(source.read())
 	source.close()
+	
+	parser.pokemon.color = colors[parser.pokemon.national_dex_number]
+	parser.pokemon.body_style = bodyStyles[parser.pokemon.national_dex_number]
+	parser.pokemon.base_exp_yield = baseExpYields[parser.pokemon.national_dex_number]
 	
 	print('Done parsing \'%s\'' % path)
 	

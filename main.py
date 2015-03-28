@@ -1,4 +1,5 @@
 import parse
+from pk import *
 from move import *
 from ability import *
 
@@ -7,7 +8,6 @@ from ability import *
 # TODO Scrape hatch counter from another source, serebii is unreliable and may not include it
 # TODO Scrape base exp yields, body style, and color from another source, serebii does not have it
 
-num_pokemon = 721
 # These pages have all of the information for each of the forms, they'll have to be put in manually
 # Deoxys
 # Wormadam
@@ -159,7 +159,7 @@ def main():
 			str(p.learnset_special),
 			str(p.learnset_evolve),
 			str(p.learnset_transfer),
-			',' if i < 49 else ''
+			',' if i < num_pokemon - 1 else ''
 		))
 		
 		
