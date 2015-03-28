@@ -5,8 +5,8 @@ from ability import *
 class Pokemon:
 	def __init__(self):
 		self.national_dex_number = 0
-		self.name = None
-		self.species = None
+		self.name = 'None'
+		self.species = 'None'
 		self.types = (0, 0)
 		self.abilities = (0, 0, 0)
 		self.gender_threshold = 0
@@ -22,10 +22,10 @@ class Pokemon:
 		self.body_style = 0
 		self.color = 0
 		self.base_stats = (0, 0, 0, 0, 0, 0)
-		self.pokedex_x = None
-		self.pokedex_y = None
-		self.pokedex_or = None
-		self.pokedex_as = None
+		self.pokedex_x = 'None'
+		self.pokedex_y = 'None'
+		self.pokedex_or = 'None'
+		self.pokedex_as = 'None'
 		self.learnset_level_xy = []
 		self.learnset_level_oras = []
 		self.learnset_machine = []

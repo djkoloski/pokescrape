@@ -106,6 +106,7 @@ Defense Curl	NOR	40	-	-	No Damage.	The user curls up to conceal weak spots and r
 Defog	FLY	15	-	-	No Damage.	A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the targe's evasiveness.
 Destiny Bond	GHO	5	-	-	No Damage.	When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.
 Detect	FIG	5	-	-	No Damage.	Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+Diamond Storm	ROC	5	100	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user whips up a storm of diamonds to damage opposing Pokémon. This may also raise the user’s Defense stat.
 Dig	GRO	10	80	100	Physical Attack, damage based on Atk and Def	The user burrows, then attacks on the next turn. It can also be used to exit dungeons.
 Disable	NOR	20	-	100	No Damage.	For four turns, this move prevents the target from using the move it last used.
 Disarming Voice	FAI	15	40	-	Special Attack, damage based on Sp.Atk and Sp.Def	Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.
@@ -119,6 +120,7 @@ Double Slap	NOR	10	15	85	Physical Attack, damage based on Atk and Def	The target
 Double Team	NOR	15	-	-	No Damage.	By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
 Double-Edge	NOR	15	120	100	Physical Attack, damage based on Atk and Def	A reckless, life-risking tackle. This also damages the user quite a lot.
 Draco Meteor	DRA	5	130	90	Special Attack, damage based on Sp.Atk and Sp.Def	Comets are summoned down from the sky onto the target. The attack's recoil harshly lowers the user's Sp. Atk stat.
+Dragon Ascent	FLY	5	120	100	Physical Attack, damage based on Atk and Def	After soaring upward, the user attacks its target by dropping out of the sky at high speeds, although it lowers its own Defense and Sp. Def in the process.
 Dragon Breath	DRA	20	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user exhales a mighty gust that inflicts damage. This may also leave the target with paralysis.
 Dragon Claw	DRA	15	80	100	Physical Attack, damage based on Atk and Def	The user slashes the target with huge, sharp claws.
 Dragon Dance	DRA	20	-	-	No Damage.	The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.
@@ -246,6 +248,7 @@ Helping Hand	NOR	20	-	-	No Damage.	The user assists an ally by boosting the powe
 Hex	GHO	10	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	This relentless attack does massive damage to a target affected by status conditions.
 Hidden Power	NOR	15	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	A unique attack that varies in type depending on the Pokémon using it.
 High Jump Kick	FIG	10	130	90	Physical Attack, damage based on Atk and Def	The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
+Hold Back	NOR	40	40	100	Physical Attack, damage based on Atk and Def	The user holds back when it attacks and the target is left with at least 1 HP.
 Hold Hands	NOR	40	-	-	No Damage.	The user and an ally hold hands. This makes them very happy.
 Hone Claws	DAR	15	-	-	No Damage.	The user sharpens its claws to to boost its Attack stat and accuracy.
 Horn Attack	NOR	25	65	100	Physical Attack, damage based on Atk and Def	The target is jabbed with a sharply pointed horn to inflict damage.
@@ -390,7 +393,7 @@ Power Swap	PSY	10	-	-	No Damage.	The user employs its psychic power to switch ch
 Power Trick	PSY	10	-	-	No Damage.	The user employs its psychic power to switch its Attack with its Defense stat.
 Power Whip	GRA	10	120	85	Physical Attack, damage based on Atk and Def	The user violently whirls its vines or tentacles to harshly lash the target.
 Power-Up Punch	FIG	20	40	100	Physical Attack, damage based on Atk and Def	Striking oppontents over and over makes the user's fists harder. Hitting a target raises the Attack stat.
-Precipice Plades	GRO	10	120	85	Physical Attack, damage based on Atk and Def	The user attacks opposing Pokémon by manifesting the power of the land in fearsome blades of stone.
+Precipice Blades	GRO	10	120	85	Physical Attack, damage based on Atk and Def	The user attacks opposing Pokémon by manifesting the power of the land in fearsome blades of stone.
 Present	NOR	15	-	90	Physical Attack, damage based on Atk and Def	The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.
 Protect	NOR	10	-	-	No Damage.	Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
 Psybeam	PSY	20	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with a peculiar ray. This may also leave the target confused.
@@ -509,6 +512,7 @@ Spite	GHO	10	-	100	No Damage.	The user unleashes its grudge on the move last use
 Splash	NOR	40	-	-	No Damage.	The user just flops and splashes around to no effect at all...
 Spore	GRA	15	-	100	No Damage.	The user scatters bursts of spores that induce sleep.
 Stealth Rock	ROC	20	-	-	No Damage.	The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that swith into battle.
+Steam Eruption	WAT	5	110	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user immerses the target in superheated steam. This may also leave the target with a burn.
 Steamroller	BUG	20	65	100	Physical Attack, damage based on Atk and Def	The user crushes its targets by rolling over them with its rolled-up body. This may also make the target flinch.
 Steel Wing	STE	25	70	90	Physical Attack, damage based on Atk and Def	The target is hit with wings of steel. This may also raise the user's Defense stat.
 Sticky Web	BUG	20	-	-	No Damage.	The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.

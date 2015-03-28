@@ -82,7 +82,7 @@ def Init():
 					print('Failed to parse damage \'%s\'' % pieces[5])
 			else:
 				print('Failed to parse damage \'%s\'' % pieces[5])
-		move.description = pieces[6]
+		move.description = pieces[6].strip()
 		
 		moves_map[move.name.lower()] = len(moves)
 		moves.append(move)
@@ -95,7 +95,7 @@ def Init():
 		
 		ability = Ability()
 		ability.name = pieces[0]
-		ability.description = pieces[1]
+		ability.description = pieces[1].strip()
 		
 		abilities_map[ability.name.lower()] = len(abilities)
 		abilities.append(ability)
@@ -191,27 +191,29 @@ class PokemonParser(HTMLParser):
 			elif data == 'Generation VI Level Up':
 				self.cur_fooinfo = 100
 			elif data == 'TM & HM Attacks':
-				self.cur_fooinfo = 700
+				self.cur_fooinfo = 400
 			elif data == 'Egg Moves ':
-				self.cur_fooinfo = 900
+				self.cur_fooinfo = 500
+			elif data == 'Move Tutor Attacks':
+				self.cur_fooinfo = 600
 			elif data == 'Omega Ruby/Alpha Sapphire Move Tutor Attacks':
-				self.cur_fooinfo = 1100
+				self.cur_fooinfo = 700
 			elif data == 'Special Moves':
-				self.cur_fooinfo = 1300
+				self.cur_fooinfo = 800
 			elif data == 'Pre-Evolution Only Moves':
-				self.cur_fooinfo = 1500
+				self.cur_fooinfo = 900
 			elif data == 'Transfer Only Moves ':
-				self.cur_fooinfo = 1700
+				self.cur_fooinfo = 1000
 		
 		if self.is_font:
 			if data == 'X & Y Level Up':
-				self.cur_fooinfo = 300
+				self.cur_fooinfo = 200
 			elif data == '\u03A9R\u03B1S Level Up':
-				self.cur_fooinfo = 500
+				self.cur_fooinfo = 300
 		
 		if self.is_bold:
 			if data == 'Stats':
-				self.cur_fooinfo = 1900
+				self.cur_fooinfo = 1100
 		
 		if self.fooinfo_enter_level != -1:
 			# 'Name'
@@ -255,7 +257,8 @@ class PokemonParser(HTMLParser):
 					self.pokemon.weight = float(data.strip()[:-2])
 			# 'Capture Rate'
 			elif self.cur_fooinfo == 8:
-				self.pokemon.catch_rate = int(data)
+				if data != '(XY)' and data != '(\u03A9R\u03B1S)':
+					self.pokemon.catch_rate = int(data)
 			# 'Base Egg Steps'
 			elif self.cur_fooinfo == 9:
 				if data != '\xa0':
@@ -267,12 +270,13 @@ class PokemonParser(HTMLParser):
 						if data == 'Hidden Ability':
 							self.fooinfo_temp = 4
 						else:
+							data = data.strip().lower()
 							if self.fooinfo_temp == 0:
-								self.pokemon.abilities = (abilities_map[data.lower()], 0, 0)
+								self.pokemon.abilities = (abilities_map[data], 0, 0)
 							elif self.fooinfo_temp == 2:
-								self.pokemon.abilities = (self.pokemon.abilities[0], abilities_map[data.lower()], 0)
+								self.pokemon.abilities = (self.pokemon.abilities[0], abilities_map[data], 0)
 							elif self.fooinfo_temp == 6:
-								self.pokemon.abilities = (self.pokemon.abilities[0], self.pokemon.abilities[1], abilities_map[data.lower()])
+								self.pokemon.abilities = (self.pokemon.abilities[0], self.pokemon.abilities[1], abilities_map[data])
 					self.fooinfo_temp += 1
 			# 'Experience Growth'
 			elif self.cur_fooinfo == 11:
@@ -349,7 +353,7 @@ class PokemonParser(HTMLParser):
 				# XXX Compensate for Serebii's double closing tags at the end of pokedex entries
 				self.td_cur_level += 1
 			# 'Gen VI Level Up'
-			elif self.cur_fooinfo >= 100 and self.cur_fooinfo < 300:
+			elif self.cur_fooinfo >= 100 and self.cur_fooinfo < 200:
 				data = data.strip()
 				index = (self.cur_fooinfo - 100) // 3
 				offset = (self.cur_fooinfo - 100) % 3
@@ -360,72 +364,101 @@ class PokemonParser(HTMLParser):
 				elif offset == 1:
 					self.pokemon.learnset_level_xy.append((self.pokemon.learnset_level_xy.pop(), moves_map[data.lower()]))
 					self.pokemon.learnset_level_oras.append((self.pokemon.learnset_level_oras.pop(), moves_map[data.lower()]))
+				elif offset == 2:
+					self.cur_fooinfo = 100 + offset
 			# 'X & Y Level Up'
-			elif self.cur_fooinfo >= 300 and self.cur_fooinfo < 500:
+			elif self.cur_fooinfo >= 200 and self.cur_fooinfo < 300:
 				data = data.strip()
-				index = (self.cur_fooinfo - 300) // 3
-				offset = (self.cur_fooinfo - 300) % 3
+				index = (self.cur_fooinfo - 200) // 3
+				offset = (self.cur_fooinfo - 200) % 3
 				if offset == 0:
 					level = 0 if data == '\u2014' else int(data)
 					self.pokemon.learnset_level_xy.append(level)
 				elif offset == 1:
 					self.pokemon.learnset_level_xy.append((self.pokemon.learnset_level_xy.pop(), moves_map[data.lower()]))
+				elif offset == 2:
+					self.cur_fooinfo = 200 + offset
 			# 'ORaS Level Up'
-			elif self.cur_fooinfo >= 500 and self.cur_fooinfo < 700:
+			elif self.cur_fooinfo >= 300 and self.cur_fooinfo < 400:
 				data = data.strip()
-				index = (self.cur_fooinfo - 500) // 3
-				offset = (self.cur_fooinfo - 500) % 3
+				index = (self.cur_fooinfo - 300) // 3
+				offset = (self.cur_fooinfo - 300) % 3
 				if offset == 0:
 					level = 0 if data == '\u2014' else int(data)
 					self.pokemon.learnset_level_oras.append(level)
 				elif offset == 1:
 					self.pokemon.learnset_level_oras.append((self.pokemon.learnset_level_oras.pop(), moves_map[data.lower()]))
+				elif offset == 2:
+					self.cur_fooinfo = 300 + offset
 			# 'TM & HM Attacks'
-			elif self.cur_fooinfo >= 700 and self.cur_fooinfo < 900:
+			elif self.cur_fooinfo >= 400 and self.cur_fooinfo < 500:
 				data = data.strip()
-				index = (self.cur_fooinfo - 700) // 3
-				offset = (self.cur_fooinfo - 700) % 3
+				index = (self.cur_fooinfo - 400) // 3
+				offset = (self.cur_fooinfo - 400) % 3
 				if offset == 1:
 					self.pokemon.learnset_machine.append(moves_map[data.lower()])
+				elif offset == 2:
+					self.cur_fooinfo = 400 + offset
 			# 'Egg Moves'
-			elif self.cur_fooinfo >= 900 and self.cur_fooinfo < 1100:
+			elif self.cur_fooinfo >= 500 and self.cur_fooinfo < 600:
 				data = data.strip()
-				index = (self.cur_fooinfo - 900) // 2
-				offset = (self.cur_fooinfo - 900) % 2
+				index = (self.cur_fooinfo - 500) // 9
+				offset = (self.cur_fooinfo - 500) % 9
 				if offset == 0:
-					self.pokemon.learnset_egg_move.append(data)
-			# 'Omega Ruby/Alpha Sapphire Move Tutor Attacks'
-			elif self.cur_fooinfo >= 1100 and self.cur_fooinfo < 1300:
+					self.pokemon.learnset_egg_move.append(moves_map[data.lower()])
+					if data != 'Volt Tackle':
+						self.cur_fooinfo += 7
+				elif offset == 8:
+					self.cur_fooinfo = 500 + offset
+			# 'Move Tutor Attacks'
+			elif self.cur_fooinfo >= 600 and self.cur_fooinfo < 700:
 				data = data.strip()
-				index = (self.cur_fooinfo - 1100) // 8
-				offset = (self.cur_fooinfo - 1100) % 8
+				index = (self.cur_fooinfo - 600) // 8
+				offset = (self.cur_fooinfo - 600) % 8
 				if offset == 0:
 					self.pokemon.learnset_tutor.append(moves_map[data.lower()])
-			# 'Special Moves'
-			elif self.cur_fooinfo >= 1300 and self.cur_fooinfo < 1500:
+				elif offset == 7:
+					self.cur_fooinfo = 600 + offset
+			# 'Omega Ruby/Alpha Sapphire Move Tutor Attacks'
+			elif self.cur_fooinfo >= 700 and self.cur_fooinfo < 800:
 				data = data.strip()
-				index = (self.cur_fooinfo - 1300) // 9
-				offset = (self.cur_fooinfo - 1300) % 9
+				index = (self.cur_fooinfo - 700) // 8
+				offset = (self.cur_fooinfo - 700) % 8
+				if offset == 0:
+					self.pokemon.learnset_tutor.append(moves_map[data.lower()])
+				elif offset == 7:
+					self.cur_fooinfo = 700 + offset
+			# 'Special Moves'
+			elif self.cur_fooinfo >= 800 and self.cur_fooinfo < 900:
+				data = data.strip()
+				index = (self.cur_fooinfo - 800) // 9
+				offset = (self.cur_fooinfo - 800) % 9
 				if offset == 0:
 					self.pokemon.learnset_special.append(moves_map[data.lower()])
+				elif offset == 8:
+					self.cur_fooinfo = 800 + offset
 			# 'Pre-Evolution Only Moves'
-			elif self.cur_fooinfo >= 1500 and self.cur_fooinfo < 1700:
+			elif self.cur_fooinfo >= 900 and self.cur_fooinfo < 1000:
 				data = data.strip()
-				index = (self.cur_fooinfo - 1500) // 3
-				offset = (self.cur_fooinfo - 1500) % 3
+				index = (self.cur_fooinfo - 900) // 3
+				offset = (self.cur_fooinfo - 900) % 3
 				if offset == 0:
 					self.pokemon.learnset_evolve.append(moves_map[data.lower()])
+				elif offset == 2:
+					self.cur_fooinfo = 900 + offset
 			# 'Transfer Only Moves'
-			elif self.cur_fooinfo >= 1700 and self.cur_fooinfo < 1900:
+			elif self.cur_fooinfo >= 1000 and self.cur_fooinfo < 1100:
 				data = data.strip()
-				index = (self.cur_fooinfo - 1700) // 2
-				offset = (self.cur_fooinfo - 1700) % 2
+				index = (self.cur_fooinfo - 1000) // 2
+				offset = (self.cur_fooinfo - 1000) % 2
 				if offset == 0:
 					self.pokemon.learnset_transfer.append(moves_map[data.lower()])
+				elif offset == 1:
+					self.cur_fooinfo = 1000 + offset
 			# 'Stats'
-			elif self.cur_fooinfo >= 1901 and self.cur_fooinfo < 1907:
+			elif self.cur_fooinfo >= 1101 and self.cur_fooinfo < 1107:
 				b = self.pokemon.base_stats
-				index = self.cur_fooinfo - 1901
+				index = self.cur_fooinfo - 1101
 				n = int(data)
 				if index == 0:
 					self.pokemon.base_stats = (n, b[1], b[2], b[3], b[4], b[5])

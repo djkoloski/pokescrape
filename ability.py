@@ -1,7 +1,7 @@
 class Ability:
 	def __init__(self):
-		self.name = None
-		self.description = None
+		self.name = 'None'
+		self.description = 'None'
 	
 	def __str__(self):
 		return ('Name: %s' % self.name +

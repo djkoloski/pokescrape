@@ -2,14 +2,14 @@ from pk import *
 
 class Move:
 	def __init__(self):
-		self.name = None
+		self.name = 'None'
 		self.type = 0
 		self.pp = 0
 		self.power = 0
 		self.accuracy = 0
 		self.category = 0
 		self.damage = 0
-		self.description = None
+		self.description = 'None'
 	
 	def __str__(self):
 		return ('Name: %s' % self.name +
