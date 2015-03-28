@@ -26,7 +26,7 @@ def GetAndParse(number, force = False):
 
 class PokemonParser(HTMLParser):
 	def __init__(self):
-		super().__init__()
+		super().__init__(strict=False, convert_charrefs=True)
 		
 		self.pokemon = Pokemon()
 		
@@ -36,6 +36,8 @@ class PokemonParser(HTMLParser):
 		self.fooinfo_cur_td = 0
 		self.cen_enter_level = -1
 		self.cen_cur_td = 0
+		self.is_bold = False
+		self.fooinfo_temp = 0
 	
 	def handle_starttag(self, tag, attrs):
 		if tag == 'td':
@@ -44,6 +46,7 @@ class PokemonParser(HTMLParser):
 			if self.cen_enter_level == -1 and ('class', 'cen') in attrs:
 				self.cen_enter_level = self.td_cur_level
 			self.td_cur_level += 1
+		# Parse types out of links
 		if tag == 'a':
 			if self.cen_enter_level != -1:
 				if self.cur_fooinfo == 5:
@@ -52,6 +55,7 @@ class PokemonParser(HTMLParser):
 						self.pokemon.types = (ptype, 0)
 					else:
 						self.pokemon.types = (self.pokemon.types[0], ptype)
+		self.is_bold = tag == 'b'
 	
 	def handle_endtag(self, tag):
 		if tag == 'td':
@@ -62,6 +66,7 @@ class PokemonParser(HTMLParser):
 				self.cur_fooinfo += 1
 				self.fooinfo_enter_level = -1
 				self.fooinfo_cur_td = 0
+				self.fooinfo_temp = 0
 			if self.cen_enter_level != -1:
 				self.cen_cur_td += 1
 			if self.cen_enter_level == self.td_cur_level:
@@ -117,7 +122,19 @@ class PokemonParser(HTMLParser):
 				if data != '\xa0':
 					self.pokemon.hatch_counter = int(data.replace(',', '')) // 255
 			# 'Abilities'
-			#elif self.
+			elif self.cur_fooinfo == 10:
+				if self.is_bold:
+					if self.fooinfo_temp % 2 == 0:
+						if data == 'Hidden Ability':
+							self.fooinfo_temp = 4
+						else:
+							if self.fooinfo_temp == 0:
+								self.pokemon.abilities = (data, None, None)
+							elif self.fooinfo_temp == 2:
+								self.pokemon.abilities = (self.pokemon.abilities[0], data, None)
+							elif self.fooinfo_temp == 6:
+								self.pokemon.abilities = (self.pokemon.abilities[0], self.pokemon.abilities[1], data)
+					self.fooinfo_temp += 1
 		if self.cen_enter_level != -1:
 			pass
 

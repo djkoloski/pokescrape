@@ -148,10 +148,10 @@ PkIColor = {
 class Pokemon:
 	def __init__(self):
 		self.national_dex_number = 0
-		self.name = 'undefined'
-		self.species = 'undefined'
+		self.name = None
+		self.species = None
 		self.types = (0, 0)
-		self.abilities = (0, 0, 0)
+		self.abilities = (None, None, None)
 		self.gender_threshold = 0
 		self.catch_rate = 0
 		self.egg_groups = (0, 0)
@@ -165,9 +165,9 @@ class Pokemon:
 		self.body_style = 0
 		self.color = 0
 		self.base_stats = (0, 0, 0, 0, 0, 0)
-		self.pokedex_x = 'undefined'
-		self.pokedex_y = 'undefined'
-		self.pokedex_oras = 'undefined'
+		self.pokedex_x = None
+		self.pokedex_y = None
+		self.pokedex_oras = None
 		self.learnset_level_xy = []
 		self.learnset_level_oras = []
 		self.learnset_machine = []
@@ -184,7 +184,7 @@ class Pokemon:
 			'\nName: %s' % self.name +
 			'\nSpecies: %s' % self.species +
 			'\nTypes: %i/%i (%s/%s)' % (self.types[0], self.types[1], PkIType[self.types[0]], PkIType[self.types[1]]) +
-			'\nAbilities: %i/%i/%i' % self.abilities +
+			'\nAbilities: %s/%s/%s' % self.abilities +
 			'\nGender Threshold: %i (%s)' % (self.gender_threshold, PkIGender[self.gender_threshold]) +
 			'\nCatch Rate: %i' % self.catch_rate +
 			'\nEgg Groups: %i/%i (%s/%s)' % (self.egg_groups[0], self.egg_groups[1], PkIEggGroup[self.egg_groups[0]], PkIEggGroup[self.egg_groups[1]]) +
