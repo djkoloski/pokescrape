@@ -41,9 +41,15 @@ class PokemonParser(HTMLParser):
 	
 	def handle_starttag(self, tag, attrs):
 		if tag == 'td':
-			if self.fooinfo_enter_level == -1 and ('class', 'fooinfo') in attrs:
+			if ('class', 'fooinfo') in attrs:
+				if self.fooinfo_enter_level != -1:
+					self.cur_fooinfo += 1
+					self.fooinfo_cur_td = 0
+					self.fooinfo_temp = 0
 				self.fooinfo_enter_level = self.td_cur_level
-			if self.cen_enter_level == -1 and ('class', 'cen') in attrs:
+			if ('class', 'cen') in attrs:
+				if self.cen_enter_level != -1:
+					self.cen_cur_td = 0
 				self.cen_enter_level = self.td_cur_level
 			self.td_cur_level += 1
 		# Parse types out of links
@@ -173,4 +179,27 @@ class PokemonParser(HTMLParser):
 					self.pokemon.ev_yield = (y[0], y[1], y[2], y[3], y[4], n)
 				else:
 					print('Failed to parse EV yield \'%s\'' % data)
+			# 'Egg Groups'
+			elif self.cur_fooinfo == 15:
+				data = data.strip().lower()
+				if 'cannot breed' in data:
+					self.pokemon.egg_groups = (PkEggGroup['undiscovered'], 0)
+				elif data == 'ditto':
+					if self.pokemon.national_dex_number == 132:
+						self.pokemon.egg_groups = (PkEggGroup['ditto'], 0)
+				elif data != '':
+					if data in PkEggGroup:
+						group = PkEggGroup[data]
+						if self.pokemon.egg_groups[0] == 0:
+							self.pokemon.egg_groups = (group, 0)
+						elif self.pokemon.egg_groups[0] != group:
+							self.pokemon.egg_groups = (self.pokemon.egg_groups[0], group)
+				'''
+				if self.fooinfo_cur_td % 2 == 1:
+					group = PkEggGroup[data.strip().lower()]
+					if self.pokemon.egg_groups[0] == 0:
+						self.pokemon.egg_groups = (group, 0)
+					else:
+						self.pokemon.egg_groups = (self.pokemon.egg_groups[0], group)
+				'''
 
