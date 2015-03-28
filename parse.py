@@ -10,14 +10,14 @@ def GetAndParse(number, force = False):
 		print('Fetching \'%s\' to \'%s\'' % (url, path))
 		data = urllib.request.urlopen(url)
 		out = open(path, 'wb')
-		out.write(data.read().decode('cp1252').encode('utf-8'))
+		out.write(data.read().decode('ISO-8859-1').replace('&eacute;', '\u00E9').encode('utf-8'))
 		print('Using newly-fetched file \'%s\'' % path)
 	else:
 		print('Using already-fetched file \'%s\'' % path)
 	
 	source = open(path, 'r')
 	parser = PokemonParser()
-	parser.feed(parser.unescape(source.read()))
+	parser.feed(source.read())
 	source.close()
 	
 	print('Done parsing \'%s\'' % path)
@@ -114,7 +114,8 @@ class PokemonParser(HTMLParser):
 				self.pokemon.catch_rate = int(data)
 			# 'Base Egg Steps'
 			elif self.cur_fooinfo == 9:
-				self.pokemon.hatch_counter = int(data.replace(',', '')) // 255
+				if data != '\xa0':
+					self.pokemon.hatch_counter = int(data.replace(',', '')) // 255
 			# 'Abilities'
 			#elif self.
 		if self.cen_enter_level != -1:
