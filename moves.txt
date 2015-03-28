@@ -1,0 +1,612 @@
+Absorb	GRA	25	20	100	Special Attack, damage based on Sp.Atk and Sp.Def	A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+Acid	POI	30	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.
+Acid Armor	POI	20	-	-	No Damage.	The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.
+Acid Spray	POI	20	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user spits fluid that works to melt the target. This harshly lowers the target’s Sp. Def stat.
+Acrobatics	FLY	15	55	100	Physical Attack, damage based on Atk and Def	The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.
+Acupressure	NOR	30	-	-	No Damage.	The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.
+Aerial Ace	FLY	20	60	-	Physical Attack, damage based on Atk and Def	The user confounds the target with speed, then slashes. This attack never misses.
+Aeroblast	FLY	5	100	95	Special Attack, damage based on Sp.Atk and Sp.Def	A vortex of air is shot at the target to inflict damage. Critical hits land more easily.
+After You	NOR	15	-	-	No Damage.	The user helps the target and makes it use its move right after the user.
+Agility	PSY	30	-	-	No Damage.	The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.
+Air Cutter	FLY	25	60	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user launches razor-like wind to slash the opposing Pokémon. Critical hits land more easily.
+Air Slash	FLY	15	75	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks with a blade of air that slices even the sky. This may also make the target flinch.
+Ally Switch	PSY	15	-	-	No Damage.	The user teleports using a strange power and switches places with one of its allies.
+Amnesia	PSY	20	-	-	No Damage.	The user temporarily empties its mind to forget its concerns. This sharply raises the user's Sp. Def stat.
+Ancient Power	ROC	5	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks with a prehistoric power. This may also raise all the user's stats at once.
+Aqua Jet	WAT	20	40	100	Physical Attack, damage based on Atk and Def	The user lunges at the target at a speed that makes it almost invisible. This move always goes first.
+Aqua Ring	WAT	20	-	-	No Damage.	The user envelops itself in a veil made of water. It regains some HP every turn.
+Aqua Tail	WAT	10	90	90	Physical Attack, damage based on Atk and Def	The user attacks by swinging its tail as if it were a vicious wave in a raging storm.
+Arm Thrust	FIG	20	15	100	Physical Attack, damage based on Atk and Def	The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.
+Aromatherapy	GRA	5	-	-	No Damage.	The user releases a soothing scent that heals all status conditions affecting the user’s party.
+Aromatic Mist	FAI	20	-	100	No Damage.	The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.
+Assist	NOR	20	-	-	No Damage.	The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
+Assurance	DAR	10	60	100	Physical Attack, damage based on Atk and Def	If the target has already taken some damage in the same turn, this attack's power is doubled.
+Astonish	GHO	15	30	100	Physical Attack, damage based on Atk and Def	The user attacks the target while shouting in a startling fashion. This may also make the target flinch.
+Attack Order	BUG	15	90	100	Physical Attack, damage based on Atk and Def	The user calls out its underlings to pummel the target. Critical hits land more easily.
+Attract	NOR	15	-	100	No Damage.	If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
+Aura Sphere	FIG	20	80	-	Special Attack, damage based on Sp.Atk and Sp.Def	The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.
+Aurora Beam	ICE	20	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.
+Autotomize	STE	15	-	-	No Damage.	The user sheds part of its body to make itself lighter and sharply raise its Speed stat.
+Avalanche	ICE	10	60	100	Physical Attack, damage based on Atk and Def	An attack move that inflicts double the damage if the user has been hurt by the target in the same turn.
+Baby-Doll Eyes	FAI	30	-	100	No Damage.	The user stares at the target with its baby-doll eyes, which lowers its Attack stat. This move always goes first.
+Barrage	NOR	20	15	85	Physical Attack, damage based on Atk and Def	Round objects are hurled at the target to strike two to five times in a row.
+Barrier	PSY	20	-	-	No Damage.	The user throws up a sturdy wall that sharply raises its Defense stat.
+Baton Pass	NOR	40	-	-	No Damage.	The user switches places with a party Pokémon in waiting and passes along any stat changes.
+Beat Up	DAR	10	-	100	Physical Attack, damage based on Atk and Def	The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.
+Belch	POI	10	120	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.
+Belly Drum	NOR	10	-	-	No Damage.	The user maximizes its Attack stat in exchange for HP equal to half its max HP.
+Bestow	NOR	15	-	-	No Damage.	The user passes its held item to the target when the target isn't holding an item.
+Bide	NOR	10	-	-	Physical Attack, damage based on Atk and Def	The user endures attacks for two turns, then strikes back to cause double the damage taken.
+Bind	NOR	20	15	85	Physical Attack, damage based on Atk and Def	Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.
+Bite	DAR	25	60	100	Physical Attack, damage based on Atk and Def	The target is bitten with viciously sharp fangs. This may also make the target flinch.
+Blast Burn	FIR	5	150	90	Special Attack, damage based on Sp.Atk and Sp.Def	The target is razed by a fiery explosion. The user can’t move on the next turn.
+Blaze Kick	FIR	10	85	90	Physical Attack, damage based on Atk and Def	The user launches a kick that lands a critical hit more easily. This may also leave the target with a burn.
+Blizzard	ICE	5	110	70	Special Attack, damage based on Sp.Atk and Sp.Def	A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.
+Block	NOR	5	-	-	No Damage.	The user blocks the target’s way with arms spread wide to prevent escape.
+Blue Flare	FIR	5	130	85	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.
+Body Slam	NOR	15	85	100	Physical Attack, damage based on Atk and Def	The user drops onto the target with its full body weight. This may also leave the target with paralysis.
+Bolt Strike	ELE	5	130	85	Physical Attack, damage based on Atk and Def	The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis.
+Bone Club	GRO	20	65	85	Physical Attack, damage based on Atk and Def	The user clubs the target with a bone. This may also make the target flinch.
+Bone Rush	GRO	10	25	90	Physical Attack, damage based on Atk and Def	The user strikes the target with a hard bone two to five times in a row.
+Bonemerang	GRO	10	50	90	Physical Attack, damage based on Atk and Def	The user throws the bone it holds. The bone loops to hit the target twice, coming and going.
+Boomburst	NOR	10	140	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks everything around it with the destructive power of a terrible, explosive sound.
+Bounce	FLY	5	85	85	Physical Attack, damage based on Atk and Def	The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.
+Brave Bird	FLY	15	120	100	Physical Attack, damage based on Atk and Def	The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.
+Brick Break	FIG	15	75	100	Physical Attack, damage based on Atk and Def	The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.
+Brine	WAT	10	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	If the target’s HP is half or less, this attack will hit with double the power.
+Bubble	WAT	30	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stats.
+Bubble Beam	WAT	20	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.
+Bug Bite	BUG	20	60	100	Physical Attack, damage based on Atk and Def	The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.
+Bug Buzz	BUG	10	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user vibrates its wings to generate a damaging sound wave. This may also lower the target's Sp. Def stat.
+Bulk Up	FIG	20	-	-	No Damage.	The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.
+Bulldoze	GRO	20	60	100	Physical Attack, damage based on Atk and Def	The user strikes everything around it by stomping down on the ground. This lowers the Speed stat of those hit.
+Bullet Punch	STE	30	40	100	Physical Attack, damage based on Atk and Def	The user strikes the target with tough punches as fast as bullets. This move always goes first.
+Bullet Seed	GRA	30	25	100	Physical Attack, damage based on Atk and Def	The user forcefully shoots seeds at the target two to five times in a row.
+Calm Mind	PSY	20	-	-	No Damage.	The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
+Camouflage	NOR	20	-	-	No Damage.	The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave.
+Captivate	NOR	20	-	100	No Damage.	If any opposing Pokémon is the opposite gender of the user, it is charmed, which harshly lowers its Sp. Atk stat.
+Celebrate	NOR	40	-	-	No Damage.	The Pokémon congratulates you on your special day!
+Charge	ELE	20	-	-	No Damage.	The user boosts the power of the Electric move it uses on the next turn. This also raises the user's Sp. Def stat.
+Charge Beam	ELE	10	50	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.
+Charm	FAI	20	-	100	No Damage.	The user gazes at the target rather charmingly, making it less wary. This harshly lowers its Attack stat.
+Chatter	FLY	20	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks using a sound wave based on words it has learned. This confuses the target.
+Chip Away	NOR	20	70	100	Physical Attack, damage based on Atk and Def	Looking for an opening, the user strikes consistently. The target’s stat changes don’t affect this attack’s damage.
+Circle Throw	FIG	10	60	90	Physical Attack, damage based on Atk and Def	The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.
+Clamp	WAT	15	35	85	Physical Attack, damage based on Atk and Def	The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns.
+Clear Smog	POI	15	50	-	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by throwing a clump of special mud. All stat changes are returned to normal.
+Close Combat	FIG	5	120	100	Physical Attack, damage based on Atk and Def	The user fights the target up close without guarding itself. This also lowers the user's Defense and Sp. Def stats.
+Coil	POI	20	-	-	No Damage.	The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.
+Comet Punch	NOR	15	18	85	Physical Attack, damage based on Atk and Def	The target is hit with a flurry of punches that strike two to five times in a row.
+Confide	NOR	20	-	-	No Damage.	The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat.
+Confuse Ray	GHO	10	-	100	No Damage.	The target is exposed to a sinister ray that triggers confusion.
+Confusion	PSY	25	50	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is hit by a weak telekinetic force. This may also confuse the target.
+Constrict	NOR	35	10	100	Physical Attack, damage based on Atk and Def	The target is attacked with long, creeping tentacles or vines. This may also lower the target's Speed stat.
+Conversion	NOR	30	-	-	No Damage.	The user changes its type to become the same type as the move at the top of the list of moves it knows.
+Conversion 2	NOR	30	-	-	No Damage.	The user changes its type to make itself resistant to the type of the attack the opponent used last.
+Copycat	NOR	20	-	-	No Damage.	The user mimics the move used immediately before it. The move fails if no other move has been used yet.
+Cosmic Power	PSY	20	-	-	No Damage.	The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.
+Cotton Guard	GRA	10	-	-	No Damage.	The user protects itself by wrapping its body in soft cotton, which drastically raises the user’s Defense stat.
+Cotton Spore	GRA	40	-	100	No Damage.	The user releases cotton-like spores that cling to the opposing Pokémon, which harshly lowers their Speed stats.
+Counter	FIG	20	-	100	Physical Attack, damage based on Atk and Def	A retaliation move that counters any physical attack, inflicting double the damage taken.
+Covet	NOR	25	60	100	Physical Attack, damage based on Atk and Def	The user endearingly approaches the target, then steals the target's held item.
+Crabhammer	WAT	10	100	90	Physical Attack, damage based on Atk and Def	The target is hammered with a large pincer. Critical hits land more easily.
+Crafty Shield	FAI	10	-	-	No Damage.	The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.
+Cross Chop	FIG	5	100	80	Physical Attack, damage based on Atk and Def	The user delivers a double chop with its forearms crossed. Critical hits land more easily.
+Cross Poison	POI	20	70	100	Physical Attack, damage based on Atk and Def	A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.
+Crunch	DAR	15	80	100	Physical Attack, damage based on Atk and Def	The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.
+Crush Claw	NOR	10	75	95	Physical Attack, damage based on Atk and Def	The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.
+Crush Grip	NOR	5	-	100	Physical Attack, damage based on Atk and Def	The target is crushed with great force. The more HP the target has left, the greater this move’s power.
+Curse	GHO	10	-	-	No Damage.	A move that works differently for the Ghost type than for all other types.
+Cut	NOR	30	50	95	Physical Attack, damage based on Atk and Def	The target is cut with a scythe or claw. This can also be used to cut down thin trees.
+Dark Pulse	DAR	15	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.
+Dark Void	DAR	10	-	80	No Damage.	Opposing Pokémon are dragged into a world of total darkness that makes them sleep.
+Dazzling Gleam	FAI	10	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user damages opposing Pokémon by emitting a powerful flash.
+Defend Order	BUG	10	-	-	No Damage.	The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.
+Defense Curl	NOR	40	-	-	No Damage.	The user curls up to conceal weak spots and raise its Defense stat.
+Defog	FLY	15	-	-	No Damage.	A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the targe's evasiveness.
+Destiny Bond	GHO	5	-	-	No Damage.	When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.
+Detect	FIG	5	-	-	No Damage.	Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+Dig	GRO	10	80	100	Physical Attack, damage based on Atk and Def	The user burrows, then attacks on the next turn. It can also be used to exit dungeons.
+Disable	NOR	20	-	100	No Damage.	For four turns, this move prevents the target from using the move it last used.
+Disarming Voice	FAI	15	40	-	Special Attack, damage based on Sp.Atk and Sp.Def	Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.
+Discharge	ELE	15	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user strikes everything around it by letting loose a flare of electricity, This may also cause paralysis.
+Dive	WAT	10	80	100	Physical Attack, damage based on Atk and Def	Diving on the first turn, the user floats up and attacks on the next turn.
+Dizzy Punch	NOR	10	70	100	Physical Attack, damage based on Atk and Def	The target is hit with rhythmically launched punches. This may also leave the target confused.
+Doom Desire	STE	5	140	100	Special Attack, damage based on Sp.Atk and Sp.Def	Two turns after this move is used, the user blasts the target with a concentrated bundle of light.
+Double Hit	NOR	10	35	90	Physical Attack, damage based on Atk and Def	The user slams the target with a long tail, vines, or a tentacle. The target is hit twice in a row.
+Double Kick	FIG	30	30	100	Physical Attack, damage based on Atk and Def	The target is quickly kicked twice in succession using both feet.
+Double Slap	NOR	10	15	85	Physical Attack, damage based on Atk and Def	The target is slapped repeatedly, back and forth, two to five times in a row.
+Double Team	NOR	15	-	-	No Damage.	By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
+Double-Edge	NOR	15	120	100	Physical Attack, damage based on Atk and Def	A reckless, life-risking tackle. This also damages the user quite a lot.
+Draco Meteor	DRA	5	130	90	Special Attack, damage based on Sp.Atk and Sp.Def	Comets are summoned down from the sky onto the target. The attack's recoil harshly lowers the user's Sp. Atk stat.
+Dragon Breath	DRA	20	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user exhales a mighty gust that inflicts damage. This may also leave the target with paralysis.
+Dragon Claw	DRA	15	80	100	Physical Attack, damage based on Atk and Def	The user slashes the target with huge, sharp claws.
+Dragon Dance	DRA	20	-	-	No Damage.	The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.
+Dragon Pulse	DRA	10	85	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with a shock wave generated by the user’s gaping mouth.
+Dragon Rage	DRA	10	-	100	Special Attack, damage based on Sp.Atk and Sp.Def	This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.
+Dragon Rush	DRA	10	100	75	Physical Attack, damage based on Atk and Def	The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.
+Dragon Tail	DRA	10	60	90	Physical Attack, damage based on Atk and Def	The target is knocked away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.
+Drain Punch	FIG	10	75	100	Physical Attack, damage based on Atk and Def	An energy-draining punch. The user's HP is restored by half the damage taken by the target.
+Draining Kiss	FAI	10	50	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user steals the target's energy with a kiss. The users HP is restored by over half of the damage taken by the target.
+Dream Eater	PSY	15	100	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.
+Drill Peck	FLY	20	80	100	Physical Attack, damage based on Atk and Def	A corkscrewing attack with a sharp beak acting as a drill.
+Drill Run	GRO	10	80	95	Physical Attack, damage based on Atk and Def	The user crashes into its target while rotating its body like a drill. Critical hits land more easily.
+Dual Chop	DRA	15	40	90	Physical Attack, damage based on Atk and Def	The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.
+Dynamic Punch	FIG	5	100	50	Physical Attack, damage based on Atk and Def	The user punches the target with full, concentrated power. This confuses the target if it hits.
+Earth Power	GRO	10	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def.
+Earthquake	GRO	10	100	100	Physical Attack, damage based on Atk and Def	The user sets off an earthquake that strikes every Pokémon around it.
+Echoed Voice	NOR	15	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.
+Eerie Impulse	ELE	15	-	100	No Damage.	The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat.
+Egg Bomb	NOR	10	100	75	Physical Attack, damage based on Atk and Def	A large egg is hurled at the target with maximum force to inflict damage.
+Electric Terrain	ELE	10	-	-	No Damage.	The user electrifies the ground under everyone’s feet for five turns. Pokémon on the ground no longer fall asleep.
+Electrify	ELE	20	-	-	No Damage.	If the target is electrified before it uses a move during that turn, the target's move becomes Electric type.
+Electro Ball	ELE	10	-	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user hurls an electric orb at the target. The faster the user is than the target, the greater the move's power.
+Electroweb	ELE	15	55	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.
+Embargo	DAR	15	-	100	No Damage.	This move prevents the target from using its held item. Its Trainer is also prevented from using items on it.
+Ember	FIR	25	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with small flames. This may also leave the target with a burn.
+Encore	NOR	5	-	100	No Damage.	The user compels the target to keep using only the move it last used for three turns.
+Endeavor	NOR	5	-	100	Physical Attack, damage based on Atk and Def	An attack move that cuts down the target's HP to equal the user's HP.
+Endure	NOR	10	-	-	No Damage.	The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.
+Energy Ball	GRA	10	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def.
+Entrainment	NOR	15	-	100	No Damage.	The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.
+Eruption	FIR	5	150	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.
+Explosion	NOR	5	250	100	Physical Attack, damage based on Atk and Def	The user attacks everything around it by causing a tremendous explosion. The user faints upon using the move.
+Extrasensory	PSY	20	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks with an odd, unseeable power. This may also make the target flinch.
+Extreme Speed	NOR	5	80	100	Physical Attack, damage based on Atk and Def	The user charges the target at blinding speed. This move always goes first.
+Facade	NOR	20	70	100	Physical Attack, damage based on Atk and Def	An attack move that doubles its power if the user is poisoned, burned, or has paralysis.
+Fairy Lock	FAI	10	-	-	No Damage.	By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.
+Fairy Wind	FAI	30	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user stirs up a fairy wind and strikes the target with it.
+Fake Out	NOR	10	40	100	Physical Attack, damage based on Atk and Def	An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.
+Fake Tears	DAR	20	-	100	No Damage.	The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.
+False Swipe	NOR	40	40	100	Physical Attack, damage based on Atk and Def	A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
+Feather Dance	FLY	15	-	100	No Damage.	The user covers the target's body with a mass of down that harshly lowers its Attack stat.
+Feint	NOR	10	30	100	Physical Attack, damage based on Atk and Def	An attack that hits a target using Protect or Detect. This also lifts the effects of those moves.
+Feint Attack	DAR	20	60	-	Physical Attack, damage based on Atk and Def	The user approaches the target disarmingly, then throws a sucker punch. This attack never misses.
+Fell Stinger	BUG	25	30	100	Physical Attack, damage based on Atk and Def	When the user knocks out a target with this move, the user’s Attack stat rises sharply.
+Fiery Dance	FIR	10	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	Cloaked in flames, the user dances and flaps its wings. This may also raise the user’s Sp. Atk stat.
+Final Gambit	FIG	5	-	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user risks everything to attack its target. The user faints but does damage equal to its HP.
+Fire Blast	FIR	5	110	85	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.
+Fire Fang	FIR	15	65	95	Physical Attack, damage based on Atk and Def	The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.
+Fire Pledge	FIR	10	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	A column of fire hits the target. When used with its grass equivalent, its damage increases and a vast sea of fire appears.
+Fire Punch	FIR	15	75	100	Physical Attack, damage based on Atk and Def	The target is punched with a fiery fist. This may also leave the target with a burn.
+Fire Spin	FIR	15	35	85	Special Attack, damage based on Sp.Atk and Sp.Def	The target becomes trapped within a fierce vortex of fire that rages for four to five turns.
+Fissure	GRO	5	-	30	Physical Attack, damage based on Atk and Def	The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.
+Flail	NOR	15	-	100	Physical Attack, damage based on Atk and Def	The user flails aimlessly to attack. The less HP the user has, the greater the move's power.
+Flame Burst	FIR	15	70	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.
+Flame Charge	FIR	20	50	100	Physical Attack, damage based on Atk and Def	Cloaking itself in flame, the user attacks. Then, building up more power, the user raises its Speed stat.
+Flame Wheel	FIR	25	60	100	Physical Attack, damage based on Atk and Def	The user cloaks itself in fire and charges at the target. This may also leave the target with a burn.
+Flamethrower	FIR	15	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is scorched with an intense blast of fire. This may also leave the target with a burn.
+Flare Blitz	FIR	15	120	100	Physical Attack, damage based on Atk and Def	The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This may leave the target with a burn.
+Flash	NOR	20	-	100	No Damage.	The user flashes a bright light that cuts the target's accuracy.
+Flash Cannon	STE	10	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user gathers all its light energy and releases it at once. This may also lower the target’s Sp. Def stat.
+Flatter	DAR	15	-	100	No Damage.	Flattery is used to confuse the target. However, this also raises the target's Sp. Atk stat.
+Fling	DAR	10	-	100	Physical Attack, damage based on Atk and Def	The user flings its held item at the target to attack. This move's power and effects depend on the item.
+Flower Shield	FAI	10	-	-	No Damage.	The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.
+Fly	FLY	15	90	95	Physical Attack, damage based on Atk and Def	The user soars and then strikes its target on the next turn. This can also be used to fly to any familiar town.
+Flying Press	FIG	10	80	95	Physical Attack, damage based on Atk and Def	The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.
+Focus Blast	FIG	5	120	70	Special Attack, damage based on Sp.Atk and Sp.Def	The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def.
+Focus Energy	NOR	30	-	-	No Damage.	The user takes a deep breath and focuses so that critical hits land more easily.
+Focus Punch	FIG	20	150	100	Physical Attack, damage based on Atk and Def	The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.
+Follow Me	NOR	20	-	-	No Damage.	The user draws attention to itself, making all targets take aim only at the user.
+Force Palm	FIG	10	60	100	Physical Attack, damage based on Atk and Def	The target is attacked with a shock wave. This may also leave the target with paralysis.
+Foresight	NOR	40	-	-	No Damage.	Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.
+Forest's Curse	GRA	20	-	100	No Damage.	The user puts a forest curse on the target. Afflicted targets are now Grass type as well.
+Foul Play	DAR	15	95	100	Physical Attack, damage based on Atk and Def	The user turns the target's power against it. The higher the target's Attack stat, the greater the move’s power.
+Freeze Shock	ICE	5	140	90	Physical Attack, damage based on Atk and Def	On the second turn, the user hits the target with electrically charged ice. This may also leave the target with paralysis.
+Freeze-Dry	ICE	20	70	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.
+Frenzy Plant	GRA	5	150	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user slams the target with an enormous tree. The user can’t move on the next turn.
+Frost Breath	ICE	10	60	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user blows its cold breath on the target. This attack always results in a critical hit.
+Frustration	NOR	20	-	100	Physical Attack, damage based on Atk and Def	A full-power attack that grows more powerful the less the user likes its Trainer.
+Fury Attack	NOR	20	15	85	Physical Attack, damage based on Atk and Def	The target is jabbed repeatedly with a horn or beak two to five times in a row.
+Fury Cutter	BUG	20	40	95	Physical Attack, damage based on Atk and Def	The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession.
+Fury Swipes	NOR	15	18	80	Physical Attack, damage based on Atk and Def	The target is raked with sharp claws or scythes quickly two to five times in a row.
+Fusion Bolt	ELE	5	100	100	Physical Attack, damage based on Atk and Def	The user throws down a giant thunderbolt. This move is more powerful when influenced by an enormous flame.
+Fusion Flare	FIR	5	100	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user brings down a giant flame. This move is more powerful when influenced by an enormous thunderbolt.
+Future Sight	PSY	10	120	100	Special Attack, damage based on Sp.Atk and Sp.Def	Two turns after this move is used, a hunk of psychic energy attacks the target.
+Gastro Acid	POI	10	-	100	No Damage.	The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target's Ability.
+Gear Grind	STE	15	50	85	Physical Attack, damage based on Atk and Def	The user attacks by throwing steel gears at its target twice.
+Geomancy	FAI	10	-	-	No Damage.	The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.
+Giga Drain	GRA	10	75	100	Special Attack, damage based on Sp.Atk and Sp.Def	A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+Giga Impact	NOR	5	150	90	Physical Attack, damage based on Atk and Def	The user charges at the target using every bit of its power. The user can’t move on the next turn.
+Glaciate	ICE	10	65	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by blowing freezing cold air at opposing Pokémon. This lowers their Speed stat.
+Glare	NOR	30	-	100	No Damage.	The user intimidates the target with the pattern on its belly to cause paralysis.
+Grass Knot	GRA	20	-	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user snares the target with grass and trips it. The heavier the target, the greater the move's power.
+Grass Pledge	GRA	10	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	A column of grass hits the target. When used with its water equivalent, its damage increases and a vast swamp appears.
+Grass Whistle	GRA	15	-	55	No Damage.	The user plays a pleasant melody that lulls the target into a deep sleep.
+Grassy Terrain	GRA	10	-	-	No Damage.	The user turns the ground under everyone's feet to grass for five turns. This restores the HP of Pokémon on the ground a little every turn.
+Gravity	PSY	5	-	-	No Damage.	Gravity is intensified for five turns, making moves involving flying unusable and negating Levitate.
+Growl	NOR	40	-	100	No Damage.	The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.
+Growth	NOR	20	-	-	No Damage.	The user's body grows all at once, raising the Attack and Sp. Atk stats.
+Grudge	GHO	5	-	-	No Damage.	If the user faints, the user's grudge fully depletes the PP of the opponent’s move that knocked it out.
+Guard Split	PSY	10	-	-	No Damage.	The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.
+Guard Swap	PSY	10	-	-	No Damage.	The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.
+Guillotine	NOR	5	-	30	Physical Attack, damage based on Atk and Def	A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.
+Gunk Shot	POI	5	120	80	Physical Attack, damage based on Atk and Def	The user shoots filthy garbage at the target to attack. This may also poison the target.
+Gust	FLY	35	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	A gust of wind is whipped up by wings and launched at the target to inflict damage.
+Gyro Ball	STE	5	-	100	Physical Attack, damage based on Atk and Def	The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move's power.
+Hail	ICE	10	-	-	No Damage.	The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.
+Hammer Arm	FIG	10	100	90	Physical Attack, damage based on Atk and Def	The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however.
+Happy Hour	NOR	30	-	-	No Damage.	Using Happy Hour doubles the amount of prize money received after battle.
+Harden	NOR	30	-	-	No Damage.	The user stiffens all the muscles in its body to raise its defense stat.
+Haze	ICE	30	-	-	No Damage.	The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.
+Head Charge	NOR	15	120	100	Physical Attack, damage based on Atk and Def	The user charges its head into its target, using its powerful guard hair. This also damages the user a little.
+Head Smash	ROC	5	150	80	Physical Attack, damage based on Atk and Def	The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly.
+Headbutt	NOR	15	70	100	Physical Attack, damage based on Atk and Def	The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.
+Heal Bell	NOR	5	-	-	No Damage.	The user makes a soothing bell chime to heal the status conditions of all the party Pokémon.
+Heal Block	PSY	15	-	100	No Damage.	For five turns, the user prevents the opposing team from using any moves, Abilities, or held items that recover HP.
+Heal Order	BUG	10	-	-	No Damage.	The user calls out its underlings to heal it. The user regains up to half of its max HP.
+Heal Pulse	PSY	10	-	-	No Damage.	The user emits a healing pulse which restores the target's HP by up to half of its max HP.
+Healing Wish	PSY	10	-	-	No Damage.	The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.
+Heart Stamp	PSY	25	60	100	Physical Attack, damage based on Atk and Def	The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch.
+Heart Swap	PSY	10	-	-	No Damage.	The user employs its psychic power to switch stat changes with the target.
+Heat Crash	FIR	10	-	100	Physical Attack, damage based on Atk and Def	The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power.
+Heat Wave	FIR	10	95	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.
+Heavy Slam	STE	10	-	100	Physical Attack, damage based on Atk and Def	The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move’s power.
+Helping Hand	NOR	20	-	-	No Damage.	The user assists an ally by boosting the power of that ally's attack.
+Hex	GHO	10	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	This relentless attack does massive damage to a target affected by status conditions.
+Hidden Power	NOR	15	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	A unique attack that varies in type depending on the Pokémon using it.
+High Jump Kick	FIG	10	130	90	Physical Attack, damage based on Atk and Def	The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
+Hold Hands	NOR	40	-	-	No Damage.	The user and an ally hold hands. This makes them very happy.
+Hone Claws	DAR	15	-	-	No Damage.	The user sharpens its claws to to boost its Attack stat and accuracy.
+Horn Attack	NOR	25	65	100	Physical Attack, damage based on Atk and Def	The target is jabbed with a sharply pointed horn to inflict damage.
+Horn Drill	NOR	5	-	30	Physical Attack, damage based on Atk and Def	The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits.
+Horn Leech	GRA	10	75	100	Physical Attack, damage based on Atk and Def	The user drains the target's energy with its horns. The user's HP is restored by half the damage taken by the target.
+Howl	NOR	40	-	-	No Damage.	The user howls loudly to raise its spirit, which raises its Attack stat.
+Hurricane	FLY	10	110	70	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target.
+Hydro Cannon	WAT	5	150	90	Special Attack, damage based on Sp.Atk and Sp.Def	The target is hit with a watery blast. The user can't move on the next turn.
+Hydro Pump	WAT	5	110	80	Special Attack, damage based on Sp.Atk and Sp.Def	The target is blasted by a huge volume of water launched under great pressure.
+Hyper Beam	NOR	5	150	90	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with a powerful beam. The user can't move on the next turn.
+Hyper Fang	NOR	15	80	90	Physical Attack, damage based on Atk and Def	The user bites hard on the target with its sharp front fangs. This may also make the target flinch.
+Hyper Voice	NOR	10	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user lets loose a horribly echoing shout with the power to inflict damage.
+Hypnosis	PSY	20	-	60	No Damage.	The users employs hypnotic suggestion to make the target fall into a deep sleep.
+Ice Ball	ICE	20	30	90	Physical Attack, damage based on Atk and Def	The user continually rolls into the target over five turns. It becomes stronger each time it hits.
+Ice Beam	ICE	10	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is struck with an icy-cold beam of energy. This may also leave the target frozen.
+Ice Burn	ICE	5	140	90	Special Attack, damage based on Sp.Atk and Sp.Def	On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.
+Ice Fang	ICE	15	65	95	Physical Attack, damage based on Atk and Def	The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.
+Ice Punch	ICE	15	75	100	Physical Attack, damage based on Atk and Def	The target is punched with an icy fist. This may also leave the target frozen.
+Ice Shard	ICE	30	40	100	Physical Attack, damage based on Atk and Def	The user flash-freezes chunks of ice and hurls them at the target. This move always goes first.
+Icicle Crash	ICE	10	85	90	Physical Attack, damage based on Atk and Def	The user attacks by harshly dropping large icicles onto the target. This may also make the target flinch.
+Icicle Spear	ICE	30	25	100	Physical Attack, damage based on Atk and Def	The user launches sharp icicles at the target two to five times in a row.
+Icy Wind	ICE	15	55	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks with a gust of chilled air. This also lowers the opposing Pokémon's Speed stats.
+Imprison	PSY	10	-	-	No Damage.	If opposing Pokémon know any move also known by the user, they are prevented from using it.
+Incinerate	FIR	15	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.
+Inferno	FIR	5	100	50	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.
+Infestation	BUG	20	20	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is infested and attacked for four to five turns. The target can't flee during this time.
+Ingrain	GRA	20	-	-	No Damage.	The user lays roots that restore its HP on every turn. Because it is rooted, it can't switch out.
+Ion Deluge	ELE	25	-	-	No Damage.	The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.
+Iron Defense	STE	15	-	-	No Damage.	The user hardens its body's surface like iron, sharply raising its Defense stat.
+Iron Head	STE	15	80	100	Physical Attack, damage based on Atk and Def	The user slams the target with its steel-hard head. This may also make the target flinch.
+Iron Tail	STE	15	100	75	Physical Attack, damage based on Atk and Def	The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.
+Judgment	NOR	10	100	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user releases countless shots of light at the target. This move's type varies depending on the kind of Plate the user is holding.
+Jump Kick	FIG	10	100	95	Physical Attack, damage based on Atk and Def	The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.
+Karate Chop	FIG	25	50	100	Physical Attack, damage based on Atk and Def	The target is attacked with a sharp chop. Critical hits land more easily.
+Kinesis	PSY	15	-	80	No Damage.	The user distracts the target by bending a spoon. This lowers the target's accuracy.
+King's Shield	STE	10	-	-	No Damage.	The user takes a defensive stance while it protects itself from damage. It also harshly lowers the Attack stat of any attacker who makes direct
+Knock Off	DAR	25	65	100	Physical Attack, damage based on Atk and Def	The user slaps down the target's held item, and that item can't be used in that battle. The move does more damage if the target has a held item.
+Land's Wrath	GRO	10	90	100	Physical Attack, damage based on Atk and Def	The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them.
+Last Resort	NOR	5	140	100	Physical Attack, damage based on Atk and Def	This move can be used only after the user has used all the other moves it knows in the battle.
+Lava Plume	FIR	15	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn.
+Leaf Blade	GRA	15	90	100	Physical Attack, damage based on Atk and Def	The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily.
+Leaf Storm	GRA	5	130	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user whips up a storm of leaves around the target. The attack's recoil harshly lowers the user's Sp. Atk stat.
+Leaf Tornado	GRA	10	65	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks its target by encircling it in sharp leaves. This attack may also lower the target's accuracy.
+Leech Life	BUG	15	20	100	Physical Attack, damage based on Atk and Def	The user drains the target's blood. The user's HP is restored by half the damage taken by the target.
+Leech Seed	GRA	10	-	90	No Damage.	A seed is planted on the target. It steals some HP from the target every turn.
+Leer	NOR	30	-	100	No Damage.	The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.
+Lick	GHO	30	30	100	Physical Attack, damage based on Atk and Def	The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.
+Light Screen	PSY	30	-	-	No Damage.	A wonderous wall of light is put up to reduce damage from special attacks for five turns.
+Lock-On	NOR	5	-	-	No Damage.	The user takes sure aim at the target. This ensures the next attack does not miss the target.
+Lovely Kiss	NOR	10	-	75	No Damage.	With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.
+Low Kick	FIG	20	-	100	Physical Attack, damage based on Atk and Def	A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.
+Low Sweep	FIG	20	65	100	Physical Attack, damage based on Atk and Def	The user makes a swift attack on the target's legs, which lowers the target's Speed stat.
+Lucky Chant	NOR	30	-	-	No Damage.	The user chants an incantation toward the sky, preventing opposing Pokémon from landing critical hits.
+Lunar Dance	PSY	10	-	-	No Damage.	The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.
+Luster Purge	PSY	5	70	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user lets loose a damaging burst of light. This may also lower the target's Sp. Def stat.
+Mach Punch	FIG	30	40	100	Physical Attack, damage based on Atk and Def	The user throws a punch at blinding speed. This move always goes first.
+Magic Coat	PSY	15	-	-	No Damage.	A barrier reflects back to the target moves like Leech Seed and moves that damage status.
+Magic Room	PSY	10	-	-	No Damage.	The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.
+Magical Leaf	GRA	20	60	-	Special Attack, damage based on Sp.Atk and Sp.Def	The user scatters curious leaves that chase the target. This attack never misses.
+Magma Storm	FIR	5	100	75	Special Attack, damage based on Sp.Atk and Sp.Def	The target becomes trapped within a maelstrom of fire that rages for four to five turns.
+Magnet Bomb	STE	20	60	-	Physical Attack, damage based on Atk and Def	The user launches steel bombs that stick to the target. This attack never misses.
+Magnet Rise	ELE	10	-	-	No Damage.	The user levitates using electrically generated magnetism for five turns.
+Magnetic Flux	ELE	20	-	-	No Damage.	The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.
+Magnitude	GRO	30	-	100	Physical Attack, damage based on Atk and Def	The user attacks everything around it with a ground-shaking quake. Its power varies.
+Mat Block	FIG	10	-	-	No Damage.	Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.
+Me First	NOR	20	-	-	No Damage.	Anwender stiehlt und führt die Attacke eines langsameren Zieles zuerst und mit größerer Kraft aus.
+Mean Look	NOR	5	-	-	No Damage.	The user pins the target with a dark, arresting look. The target becomes unable to flee.
+Meditate	PSY	40	-	-	No Damage.	The user meditates to awaken the power deep within its body and raise its Attack stat.
+Mega Drain	GRA	15	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+Mega Kick	NOR	5	120	75	Physical Attack, damage based on Atk and Def	The target is attacked by a kick launched with muscle-packed power.
+Mega Punch	NOR	20	80	85	Physical Attack, damage based on Atk and Def	The target is slugged by a punch thrown with muscle-packed power.
+Megahorn	BUG	10	120	85	Physical Attack, damage based on Atk and Def	Using its tough and impressive horn, the user rams into the target with no letup.
+Memento	DAR	10	-	100	No Damage.	The user faints when using this move. In return, this harshly lowers the target’s Attack and Sp. Atk stats.
+Metal Burst	STE	10	-	100	Physical Attack, damage based on Atk and Def	The user retaliates with much greater power against the target that last inflicted damage on it.
+Metal Claw	STE	35	50	95	Physical Attack, damage based on Atk and Def	The target is raked with steel claws. This may also raise the user’s Attack stat.
+Metal Sound	STE	40	-	85	No Damage.	A horrible sound like scraping metal harshly lowers the target's Sp. Def stat.
+Meteor Mash	STE	10	90	90	Physical Attack, damage based on Atk and Def	The target is hit with a hard punch fired like a meteor. This may also raise the user's Attack stat.
+Metronome	NOR	10	-	-	No Damage.	The user waggles a finger and stimulates its brain into randomly using nearly any move.
+Milk Drink	NOR	10	-	-	No Damage.	The user restores its own HP by up to half of its max HP. May also be used in the field to heal HP.
+Mimic	NOR	10	-	-	No Damage.	The user copies the target's last move. The move can be used during battle until the Pokémon is switched out.
+Mind Reader	NOR	5	-	-	No Damage.	The user senses the target's movements with its mind to ensure its next attack does not miss the target.
+Minimize	NOR	10	-	-	No Damage.	The user compresses its body to make itself look smaller, which sharply raises its evasiveness.
+Miracle Eye	PSY	40	-	-	No Damage.	Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.
+Mirror Coat	PSY	20	-	100	Special Attack, damage based on Sp.Atk and Sp.Def	A relitation move that counters any special attack, inflicting double the damage taken.
+Mirror Move	FLY	20	-	-	No Damage.	The user counters the target by mimicking the target's last move.
+Mirror Shot	STE	10	65	85	Special Attack, damage based on Sp.Atk and Sp.Def	The user lets loose a flash of energy at the target from its polished body. This may also lower the target’s accuracy.
+Mist	ICE	30	-	-	No Damage.	The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.
+Mist Ball	PSY	5	70	100	Special Attack, damage based on Sp.Atk and Sp.Def	A mist-like flurry of down envelops and damages the target. This may also lower the target's Sp. Atk stat.
+Misty Terrain	FAI	10	-	-	No Damage.	The user covers the ground under everyone's feet with mist for five turns. This protects Pokémon on the ground from status conditions.
+Moonblast	FAI	15	95	100	Special Attack, damage based on Sp.Atk and Sp.Def	Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat.
+Moonlight	FAI	5	-	-	No Damage.	The user restores its own HP. The amount of HP regained varies with the weather.
+Morning Sun	NOR	5	-	-	No Damage.	The user restores its own HP. The amount of HP regained varies with the weather.
+Mud Bomb	GRO	10	65	85	Special Attack, damage based on Sp.Atk and Sp.Def	The user launches a hard-packed mud ball to attack. This may also lower the target's accuracy.
+Mud Shot	GRO	15	55	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by hurling a blob of mud at the target. This may also lowers the target's Speed stat.
+Mud Sport	GRO	15	-	-	No Damage.	The user launches a hard-packed mud ball to attack. This may also lower the target's accuracy.
+Mud-Slap	GRO	10	20	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user hurls mud in the target's face to inflict damage and lower its accuracy.
+Muddy Water	WAT	10	90	85	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.
+Mystical Fire	FIR	10	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.
+Nasty Plot	DAR	20	-	-	No Damage.	The user stimulates its brain by thinking bad thoughts. This sharply raises the user's Sp. Atk.
+Natural Gift	NOR	15	-	100	Physical Attack, damage based on Atk and Def	The user draws power to attack by using its held Berry. The Berry determines the move's type and power.
+Nature Power	NOR	20	-	-	No Damage.	An attack that makes use of nature's power. Its effects vary depending on the user's environment.
+Needle Arm	GRA	15	60	100	Physical Attack, damage based on Atk and Def	The user attacks by wildly swinging its thorny arms. This may also make the target flinch.
+Night Daze	DAR	10	85	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user lets loose a pitch-black shock wave at its target. This may also lower the target's accuracy.
+Night Shade	GHO	15	-	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.
+Night Slash	DAR	15	70	100	Physical Attack, damage based on Atk and Def	The user slashes the target the instant an opportunity arises. Critical hits land more easily.
+Nightmare	GHO	15	-	100	No Damage.	A sleeping target sees a nightmare that inflicts some damage every turn.
+Noble Roar	NOR	30	-	100	No Damage.	Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.
+Nuzzle	ELE	20	20	100	Physical Attack, damage based on Atk and Def	The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.
+Oblivion Wing	FLY	10	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user absorbs its target's HP. The user's HP is restored by over half of the damage taken by the target.
+Octazooka	WAT	10	65	85	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks by spraying ink in the target's face or eyes. This may also lower the target's accuracy.
+Odor Sleuth	NOR	40	-	-	No Damage.	Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.
+Ominous Wind	GHO	5	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user blasts the target with a gust of repulsive wind. This may also raise all the user's stats at once.
+Origin Pulse	WAT	10	110	85	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.
+Outrage	DRA	10	120	100	Physical Attack, damage based on Atk and Def	The user rampages and attacks for two to three turns. The user then becomes confused.
+Overheat	FIR	5	130	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.
+Pain Split	NOR	20	-	-	No Damage.	The user adds its HP to the target's HP, then equally shares the combined HP with the target.
+Parabolic Charge	ELE	20	50	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks everything around it. The user's HP is restored by half the damage taken by those hit.
+Parting Shot	DAR	20	-	100	No Damage.	With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches with a party Pokémon.
+Pay Day	NOR	20	40	100	Physical Attack, damage based on Atk and Def	Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.
+Payback	DAR	10	50	100	Physical Attack, damage based on Atk and Def	The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.
+Peck	FLY	35	35	100	Physical Attack, damage based on Atk and Def	The target is jabbed with a sharply pointed beak or horn.
+Perish Song	NOR	5	-	-	No Damage.	Any Pokémon that hears this song faints in three turns, unless it switches out of battle.
+Petal Blizzard	GRA	15	90	100	Physical Attack, damage based on Atk and Def	The user stirs up a violent petal blizzard and attacks everything around it.
+Petal Dance	GRA	10	120	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks the target by scattering petals for two to three turns. The user then becomes confused.
+Phantom Force	GHO	10	90	100	Physical Attack, damage based on Atk and Def	The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.
+Pin Missile	BUG	20	25	95	Physical Attack, damage based on Atk and Def	Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
+Play Nice	NOR	20	-	-	No Damage.	The user and the target become friends, and the target loses its will to fight. This lowers the target's Attack stat.
+Play Rough	FAI	10	90	90	Physical Attack, damage based on Atk and Def	The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
+Pluck	FLY	20	60	100	Physical Attack, damage based on Atk and Def	The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.
+Poison Fang	POI	15	50	100	Physical Attack, damage based on Atk and Def	The user bites the target with toxic fangs. This may also leave the target badly poisoned.
+Poison Gas	POI	40	-	90	No Damage.	A cloud of poison gas is sprayed in the face of opposing Pokémon. This may also poison those hit.
+Poison Jab	POI	20	80	100	Physical Attack, damage based on Atk and Def	The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target.
+Poison Powder	POI	35	-	75	No Damage.	The user scatters a cloud of poisonous dust on the target. This may also poison the target.
+Poison Sting	POI	35	15	100	Physical Attack, damage based on Atk and Def	The user stabs the target with a poisonous stinger. This may also poison the target.
+Poison Tail	POI	25	50	100	Physical Attack, damage based on Atk and Def	The user hits the target with its tail. This may also poison the target. Critical hits land more easily.
+Pound	NOR	35	40	100	Physical Attack, damage based on Atk and Def	The target is physically pounded with a long tail, a foreleg, or the like.
+Powder	BUG	20	-	100	No Damage.	The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.
+Powder Snow	ICE	25	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks with a chilling gust of powdery snow. This may also freeze the opposing Pokémon.
+Power Gem	ROC	20	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks with a ray of light that sparkles as if it were made of gemstones.
+Power Split	PSY	10	-	-	No Damage.	The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.
+Power Swap	PSY	10	-	-	No Damage.	The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target.
+Power Trick	PSY	10	-	-	No Damage.	The user employs its psychic power to switch its Attack with its Defense stat.
+Power Whip	GRA	10	120	85	Physical Attack, damage based on Atk and Def	The user violently whirls its vines or tentacles to harshly lash the target.
+Power-Up Punch	FIG	20	40	100	Physical Attack, damage based on Atk and Def	Striking oppontents over and over makes the user's fists harder. Hitting a target raises the Attack stat.
+Precipice Plades	GRO	10	120	85	Physical Attack, damage based on Atk and Def	The user attacks opposing Pokémon by manifesting the power of the land in fearsome blades of stone.
+Present	NOR	15	-	90	Physical Attack, damage based on Atk and Def	The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.
+Protect	NOR	10	-	-	No Damage.	Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+Psybeam	PSY	20	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with a peculiar ray. This may also leave the target confused.
+Psych Up	NOR	10	-	-	No Damage.	The user hypnotizes itself into copying any stat change made by the target.
+Psychic	PSY	10	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is hit by a strong telekinetic force. This may also lower the target's Sp. Def stat.
+Psycho Boost	PSY	5	140	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.
+Psycho Cut	PSY	20	70	100	Physical Attack, damage based on Atk and Def	The user tears at the target with blades formed by psychic power. Critical hits land more easily.
+Psycho Shift	PSY	10	-	100	No Damage.	Using its psychic power of suggestion, the user transfers its status conditions to the target.
+Psyshock	PSY	10	80	100	Special Attack, damage based on Sp.Atk and Def	The user materializes an odd psychic wave to attack the target. This attack does physical damage.
+Psystrike	PSY	10	100	100	Special Attack, damage based on Sp.Atk and Def	The user materializes an odd psychic wave to attack the target. This attack does physical damage.
+Psywave	PSY	15	-	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with an odd psychic wave. The attack varies in intensity.
+Punishment	DAR	5	-	100	Physical Attack, damage based on Atk and Def	The more the target has powered up with stat changes, the greater the move's power.
+Pursuit	DAR	20	40	100	Physical Attack, damage based on Atk and Def	An attack move that inflicts double damage if used on a target that is switching out of battle.
+Quash	DAR	15	-	100	No Damage.	The user suppresses the target and makes its move go last.
+Quick Attack	NOR	30	40	100	Physical Attack, damage based on Atk and Def	The user lunges at the target at a speed that makes it almost invisible. This move always goes first.
+Quick Guard	FIG	15	-	-	No Damage.	The user protects itself and its allies from priority moves.
+Quiver Dance	BUG	20	-	-	No Damage.	The user lightly performs a beautiful, mystic dance. This boosts the user’s Sp. Atk, Sp. Def, and Speed stats.
+Rage	NOR	20	20	100	Physical Attack, damage based on Atk and Def	As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.
+Rage Powder	BUG	20	-	-	No Damage.	The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.
+Rain Dance	WAT	5	-	-	No Damage.	The user summons a heavy rain that falls for five turns, powering up Water-type moves.
+Rapid Spin	NOR	40	20	100	Physical Attack, damage based on Atk and Def	A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.
+Razor Leaf	GRA	25	55	95	Physical Attack, damage based on Atk and Def	Sharp-edged leaves are launched to slash at the opposing Pokémon. Critical hits land more easily.
+Razor Shell	WAT	10	75	95	Physical Attack, damage based on Atk and Def	The user cuts its target with sharp shells. This may also lower the target's Defense stat.
+Razor Wind	NOR	10	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.
+Recover	NOR	10	-	-	No Damage.	Restoring its own cells, the user restores its own HP by half of its max HP.
+Recycle	NOR	10	-	-	No Damage.	The user recycles a held item that has been used in battle so it can be used again.
+Reflect	PSY	20	-	-	No Damage.	A wonderous wall of light is put up to reduce damage from physical attacks for five turns.
+Reflect Type	NOR	15	-	-	No Damage.	The user reflects the target's type, making it the same type as the target.
+Refresh	NOR	20	-	-	No Damage.	The user rests to cure itself of a poisoning, burn, or paralysis.
+Relic Song	NOR	10	75	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.
+Rest	PSY	10	-	-	No Damage.	The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions.
+Retaliate	NOR	5	70	100	Physical Attack, damage based on Atk and Def	The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move becomes more powerful.
+Return	NOR	20	-	100	Physical Attack, damage based on Atk and Def	A full power attack that grows more powerful the more the user likes its trainer.
+Revenge	FIG	10	60	100	Physical Attack, damage based on Atk and Def	An attack move that inflicts double the damage if the user has been hurt by the opponent in the same turn.
+Reversal	FIG	15	-	100	Physical Attack, damage based on Atk and Def	An all-out attack that becomes more powerful the less HP the user has.
+Roar	NOR	20	-	-	No Damage.	The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.
+Roar of Time	DRA	5	150	90	Special Attack, damage based on Sp.Atk and Sp.Def	The user blasts the target with power that distorts even time. The user can’t move on the next turn.
+Rock Blast	ROC	10	25	90	Physical Attack, damage based on Atk and Def	The user hurls hard rocks at the target. Two to five rocks are launched in a row.
+Rock Climb	NOR	20	90	85	Physical Attack, damage based on Atk and Def	The user attacks the target by smashing into it with incredible force. This may also confuse the target.
+Rock Polish	ROC	20	-	-	No Damage.	The user polishes its body to reduce drag. This can sharply raise the Speed stat.
+Rock Slide	ROC	10	75	90	Physical Attack, damage based on Atk and Def	Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.
+Rock Smash	FIG	15	40	100	Physical Attack, damage based on Atk and Def	The user attacks with a punch. This may also lower the target's Defense stat. This move can also shatter rocks in the field.
+Rock Throw	ROC	15	50	90	Physical Attack, damage based on Atk and Def	The user picks up and throws a small rock at the target to attack.
+Rock Tomb	ROC	15	60	95	Physical Attack, damage based on Atk and Def	Boulders are hurled at the target. This also lowers the target's Speed stat by preventing its movement.
+Rock Wrecker	ROC	5	150	90	Physical Attack, damage based on Atk and Def	The user launches a huge boulder at the target to attack. The user can't move on the next turn.
+Role Play	PSY	10	-	-	No Damage.	The user mimics the target completely, copying the target's natural Ability.
+Rolling Kick	FIG	15	60	85	Physical Attack, damage based on Atk and Def	The user lashes out with a quick, spinning kick. This may also make the target flinch.
+Rollout	ROC	20	30	90	Physical Attack, damage based on Atk and Def	The user continually rolls into the target over five turns. It becomes more powerful each time it hits.
+Roost	FLY	10	-	-	No Damage.	The user lands and rests its body. It restores the user's HP by up to half of its max HP.
+Rototiller	GRO	10	-	-	No Damage.	Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokémon.
+Round	NOR	15	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks with a song. Others can join in the Round and make the attack do greater damage.
+Sacred Fire	FIR	5	100	95	Physical Attack, damage based on Atk and Def	The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.
+Sacred Sword	FIG	15	90	100	Physical Attack, damage based on Atk and Def	The user attacks by slicing with a long horn. The target's stat changes don’t affect this attack's damage.
+Safeguard	NOR	25	-	-	No Damage.	The user creates a protective field that prevents status conditions for five turns.
+Sand Attack	GRO	15	-	100	No Damage.	Sand is hurled in the target's face, reducing the target's accuracy.
+Sand Tomb	GRO	15	35	85	Physical Attack, damage based on Atk and Def	The user traps the target inside a harshly raging sandstorm for four to five turns.
+Sandstorm	ROC	10	-	-	No Damage.	A five-turn sandstorm is summoned to hurt all combatants except for Rock, Ground, and Steel types.
+Scald	WAT	15	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user shoots boiling hot water at its target. This may also leave the target with a burn.
+Scary Face	NOR	10	-	100	No Damage.	The user frightens the target with a scary face to harshly lower its Speed stat.
+Scratch	NOR	35	40	100	Physical Attack, damage based on Atk and Def	Hard, pointed, sharp claws rake the target to inflict damage.
+Screech	NOR	40	-	85	No Damage.	An earsplitting screen harshly lowers the target's Defense stat.
+Searing Shot	FIR	5	100	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn.
+Secret Power	NOR	20	70	100	Physical Attack, damage based on Atk and Def	The user attacks the target with a secret power. Its additional effects vary depending on the user’s environment.
+Secret Sword	FIG	10	85	100	Special Attack, damage based on Sp.Atk and Def	The user cuts with its long horn. The odd power contained in the horn does physical damage to the target.
+Seed Bomb	GRA	15	80	100	Physical Attack, damage based on Atk and Def	The user slams a barrage of hard-shelled seeds down on the target from above.
+Seed Flare	GRA	5	120	85	Special Attack, damage based on Sp.Atk and Sp.Def	The user emits a shock wave from its body to attack its target. This may also harshly lower the target's Sp. Def.
+Seismic Toss	FIG	20	-	100	Physical Attack, damage based on Atk and Def	The target is thrown using the power of gravity. It inflicts damage equal to the user's level.
+Self-Destruct	NOR	5	200	100	Physical Attack, damage based on Atk and Def	The user attacks everything around it by causing an explosion. The user faints upon using this move.
+Shadow Ball	GHO	15	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat.
+Shadow Claw	GHO	15	70	100	Physical Attack, damage based on Atk and Def	The user slashes with a sharp claw made from shadows. Critical hits land more easily.
+Shadow Force	GHO	5	120	100	Physical Attack, damage based on Atk and Def	The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.
+Shadow Punch	GHO	20	60	-	Physical Attack, damage based on Atk and Def	The user throws a punch from the shadows. This attack never misses.
+Shadow Sneak	GHO	30	40	100	Physical Attack, damage based on Atk and Def	The user extends its shadow and attacks the target from behind. This move always goes first.
+Sharpen	NOR	30	-	-	No Damage.	The user lowers its polygon count to make itself more jagged, raising the Attack stat.
+Sheer Cold	ICE	5	-	30	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits.
+Shell Smash	NOR	15	-	-	No Damage.	The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats.
+Shift Gear	STE	10	-	-	No Damage.	The user rotates its gears, raising its Attack and sharply raising its Speed.
+Shock Wave	ELE	20	60	-	Special Attack, damage based on Sp.Atk and Sp.Def	The user strikes the target with a quick jolt of electricity. This attack never misses.
+Signal Beam	BUG	15	75	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks with a sinister beam of light. This may also confuse the target.
+Silver Wind	BUG	5	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with powdery scales blown by wind. This may also raise all the user's stats.
+Simple Beam	NOR	15	-	100	No Damage.	The user's mysterious psychic wave changes the target's Ability to Simple.
+Sing	NOR	15	-	55	No Damage.	A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.
+Sketch	NOR	1	-	-	No Damage.	It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.
+Skill Swap	PSY	10	-	-	No Damage.	The user employs its psychic power to exchange Abilities with the target.
+Skull Bash	NOR	10	130	100	Physical Attack, damage based on Atk and Def	The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.
+Sky Attack	FLY	5	140	90	Physical Attack, damage based on Atk and Def	A second-turn attack move where critical hits land more easily. This may also make the target flinch.
+Sky Drop	FLY	10	60	100	Physical Attack, damage based on Atk and Def	The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.
+Sky Uppercut	FIG	15	85	90	Physical Attack, damage based on Atk and Def	The user attacks the target with an uppercut thrown skyward with force.
+Slack Off	NOR	10	-	-	No Damage.	The user slacks off, restoring its own HP by up to half of its max HP.
+Slam	NOR	20	80	75	Physical Attack, damage based on Atk and Def	The target is slammed with a long tail, vines, or the like to inflict damage.
+Slash	NOR	20	70	100	Physical Attack, damage based on Atk and Def	The target is attacked with a slash of claws or blades. Critical hits land more easily.
+Sleep Powder	GRA	15	-	75	No Damage.	The user scatters a big cloud of sleep-inducing dust around the target.
+Sleep Talk	NOR	10	-	-	No Damage.	While it is asleep, the user randomly uses one of the moves it knows.
+Sludge	POI	20	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	Unsanitary sludge is hurled at the target. This may also poison the target.
+Sludge Bomb	POI	10	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	Unsanitary sludge is hurled at the target. This may also poison the target.
+Sludge Wave	POI	10	95	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.
+Smack Down	ROC	15	50	100	Physical Attack, damage based on Atk and Def	The user throws a stone or similar projectile to attack an opponent. A flying Pokémon will fall to the ground when it's hit.
+Smelling Salts	NOR	10	70	100	Physical Attack, damage based on Atk and Def	This attack inflicts double damage on a target with paralysis. This also cures the target’s paralysis, however.
+Smog	POI	20	30	70	Special Attack, damage based on Sp.Atk and Sp.Def	The target is attacked with a discharge of filthy gases. This may also poison the target.
+Smokescreen	NOR	20	-	100	No Damage.	The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.
+Snarl	DAR	15	55	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user yells as if it’s ranting about something, which lowers the Sp. Atk stat of opposing Pokémon.
+Snatch	DAR	10	-	-	No Damage.	The user steals the effects of any attempts to use a healing or stat-changing move.
+Snore	NOR	15	50	100	Special Attack, damage based on Sp.Atk and Sp.Def	An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.
+Soak	WAT	20	-	100	No Damage.	The user shoots a torrent of water at the target and changes the target's type to Water.
+Soft-Boiled	NOR	10	-	-	No Damage.	The user restores its own HP by up to half of its max HP. May also be used in the field to heal HP.
+Solar Beam	GRA	10	120	100	Special Attack, damage based on Sp.Atk and Sp.Def	A two-turn attack. The user gathers light, then blasts a bundled beam on the next turn.
+Sonic Boom	NOR	20	-	90	Special Attack, damage based on Sp.Atk and Sp.Def	The target is hit with a destructive shock wave that always inflicts 20 HP damage.
+Spacial Rend	DRA	5	100	95	Special Attack, damage based on Sp.Atk and Sp.Def	The user tears the target along with the space around it. Critical hits land more easily.
+Spark	ELE	20	65	100	Physical Attack, damage based on Atk and Def	The user throws an electrically charged tackle at the target. This may also leave the target with paralysis.
+Spider Web	BUG	10	-	-	No Damage.	The user ensnares the target with thin, gooey silk so it can’t flee from battle.
+Spike Cannon	NOR	15	20	100	Physical Attack, damage based on Atk and Def	Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
+Spikes	GRO	20	-	-	No Damage.	The user lays a trap of spikes at the opposing team's feet. The trap hurts Pokémon that switch into battle.
+Spiky Shield	GRA	10	-	-	No Damage.	In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.
+Spit Up	NOR	10	-	100	Special Attack, damage based on Sp.Atk and Sp.Def	The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power.
+Spite	GHO	10	-	100	No Damage.	The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.
+Splash	NOR	40	-	-	No Damage.	The user just flops and splashes around to no effect at all...
+Spore	GRA	15	-	100	No Damage.	The user scatters bursts of spores that induce sleep.
+Stealth Rock	ROC	20	-	-	No Damage.	The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that swith into battle.
+Steamroller	BUG	20	65	100	Physical Attack, damage based on Atk and Def	The user crushes its targets by rolling over them with its rolled-up body. This may also make the target flinch.
+Steel Wing	STE	25	70	90	Physical Attack, damage based on Atk and Def	The target is hit with wings of steel. This may also raise the user's Defense stat.
+Sticky Web	BUG	20	-	-	No Damage.	The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.
+Stockpile	NOR	20	-	-	No Damage.	The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times.
+Stomp	NOR	20	65	100	Physical Attack, damage based on Atk and Def	The target is stomped with a big foot. This may also make the target flinch.
+Stone Edge	ROC	5	100	80	Physical Attack, damage based on Atk and Def	The user stabs the target with sharpened stones from below. Critical hits land more easily.
+Stored Power	PSY	10	20	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks the target with stored power. The more the user's stats are raised, the greater the move’s power.
+Storm Throw	FIG	10	60	100	Physical Attack, damage based on Atk and Def	The user strikes the target with a fierce blow. This attack always results in a critical hit.
+Strength	NOR	15	80	100	Physical Attack, damage based on Atk and Def	The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.
+String Shot	BUG	40	-	95	No Damage.	The opposing Pokémon are bound with silk blown from the user's mouth that harshly lowers the Speed stat.
+Struggle	NOR	1	50	-	Physical Attack, damage based on Atk and Def	An attack that is used in desperation only if the user has no PP. This also damages the user a little.
+Struggle Bug	BUG	20	50	100	Special Attack, damage based on Sp.Atk and Sp.Def	While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.
+Stun Spore	GRA	30	-	75	No Damage.	The user scatters a cloud of numbing powder that paralyzes the target.
+Submission	FIG	25	80	80	Physical Attack, damage based on Atk and Def	The user grabs the target and recklessly dives for the ground. This also damages the user a little.
+Substitute	NOR	10	-	-	No Damage.	The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.
+Sucker Punch	DAR	5	80	100	Physical Attack, damage based on Atk and Def	This move enables the user to attack first. This move fails if the target is not readying an attack.
+Sunny Day	FIR	5	-	-	No Damage.	The user intensifies the sun for five turns, powering up Fire-type moves.
+Super Fang	NOR	10	-	90	Physical Attack, damage based on Atk and Def	The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half.
+Superpower	FIG	5	120	100	Physical Attack, damage based on Atk and Def	The user attacks the target with great power. However, this also lowers the user's Attack and Defense stats.
+Supersonic	NOR	20	-	55	No Damage.	The user generates odd sound waves from its body that confuse the target.
+Surf	WAT	15	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks everything around it by swamping its surroundings with a giant wave. This can also be used for crossing water.
+Swagger	NOR	15	-	90	No Damage.	The user enrages and confuses the target. However, this also sharply raises the target's Attack stat.
+Swallow	NOR	10	-	-	No Damage.	The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.
+Sweet Kiss	FAI	10	-	75	No Damage.	The user kisses the target with a sweet, angelic cuteness that causes confusion.
+Sweet Scent	NOR	20	-	100	No Damage.	A sweet scent that harshly lowers opposing Pokémon's evasiveness. This also lures wild Pokémon if used in places such as tall gras
+Swift	NOR	20	60	-	Special Attack, damage based on Sp.Atk and Sp.Def	Star-shaped rays are shot at the opposing Pokémon. This attack never misses.
+Switcheroo	DAR	10	-	100	No Damage.	The user trades held items with the target faster than the eye can follow.
+Swords Dance	NOR	20	-	-	No Damage.	A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat.
+Synchronoise	PSY	15	120	100	Special Attack, damage based on Sp.Atk and Sp.Def	Using an odd shock wave, the user inflicts damage on any Pokémon of the same type in the area around it.
+Synthesis	GRA	5	-	-	No Damage.	The user restores its own HP. The amount of HP regained varies with the weather.
+Tackle	NOR	35	50	100	Physical Attack, damage based on Atk and Def	A physical attack in which the user charges and slams into the target with its whole body.
+Tail Glow	BUG	20	-	-	No Damage.	The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat.
+Tail Slap	NOR	10	25	85	Physical Attack, damage based on Atk and Def	The user attacks by striking the target with its hard tail. It hits the target two to five times in a row.
+Tail Whip	NOR	30	-	100	No Damage.	The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat.
+Tailwind	FLY	15	-	-	No Damage.	The user whips up a turbulent whirlwind that ups the Speed stat of the user and its allies for four turns.
+Take Down	NOR	20	90	85	Physical Attack, damage based on Atk and Def	A reckless, full-body charge attack for slamming into the target. This also damages the user a little.
+Taunt	DAR	20	-	100	No Damage.	The target is taunted into a rage that allows it to use only attack moves for three turns.
+Techno Blast	NOR	5	120	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user fires a beam of light at its target. The move's type changes depending on the Drive the user holds.
+Teeter Dance	NOR	20	-	100	No Damage.	The user performs a wobbly dance that confuses the Pokémon around it.
+Telekinesis	PSY	15	-	-	No Damage.	The user makes the target float with its psychic power. The target is easier to hit for three turns.
+Teleport	PSY	20	-	-	No Damage.	Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited.
+Thief	DAR	25	60	100	Physical Attack, damage based on Atk and Def	The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.
+Thrash	NOR	10	120	100	Physical Attack, damage based on Atk and Def	The user rampages and attacks for two to three turns. The user then becomes confused.
+Thunder	ELE	10	110	70	Special Attack, damage based on Sp.Atk and Sp.Def	A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.
+Thunder Fang	ELE	15	65	95	Physical Attack, damage based on Atk and Def	The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.
+Thunder Punch	ELE	15	75	100	Physical Attack, damage based on Atk and Def	The target is punched with an electrified fist. This may also leave the target with paralysis.
+Thunder Shock	ELE	30	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis.
+Thunder Wave	ELE	20	-	100	No Damage.	The user launches a weak jolt of electricity that paralyzes the target.
+Thunderbolt	ELE	15	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	A strong electric blast crashes down on the target. This may also leave the target with paralysis.
+Tickle	NOR	20	-	100	No Damage.	The user tickles the target into laughing, reducing its Attack and Defense stats.
+Topsy-Turvy	DAR	20	-	-	No Damage.	All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.
+Torment	DAR	15	-	100	No Damage.	The user torments and enrages the target, making it incapable of using the same move twice in a row.
+Toxic	POI	10	-	90	No Damage.	A move that leaves the target badly poisoned. Its poison damage worsens every turn.
+Toxic Spikes	POI	20	-	-	No Damage.	The user lays a trap of poison spikes at the opposing team’s feet. They poison opposing Pokémon that switch into battle.
+Transform	NOR	10	-	-	No Damage.	The user transforms into a copy of the target right down to having the same move set.
+Tri Attack	NOR	10	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user strikes with a simultaneous three-beam attack. May also burn, freeze, or leave the target with paralysis.
+Trick	PSY	10	-	100	No Damage.	The user catches the target off guard and swaps its held item with its own.
+Trick Room	PSY	5	-	-	No Damage.	The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+Trick-or-Treat	GHO	20	-	100	No Damage.	The user takes the target trick-or-treating. This adds Ghost type to the target’s type.
+Triple Kick	FIG	10	10	90	Physical Attack, damage based on Atk and Def	A consecutive three-kick attack that becomes more powerful with each successive hit.
+Trump Card	NOR	5	-	-	Special Attack, damage based on Sp.Atk and Sp.Def	The fewer PP this move has, the greater its power.
+Twineedle	BUG	20	25	100	Physical Attack, damage based on Atk and Def	The user damages the target twice in succession by jabbing it with two spikes. This may also poison the target.
+Twister	DRA	20	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user whips up a vicious tornado to tear at the opposing Pokémon. This may also make them flinch.
+U-turn	BUG	20	70	100	Physical Attack, damage based on Atk and Def	After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+Uproar	NOR	10	90	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks the target while shouting in a startling fashion. This may also make the target flinch.
+V-create	FIR	5	180	95	Physical Attack, damage based on Atk and Def	With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats.
+Vacuum Wave	FIG	30	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.
+Venom Drench	POI	20	-	100	No Damage.	Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.
+Venoshock	POI	10	65	100	Special Attack, damage based on Sp.Atk and Sp.Def	THe user drenches the target in a special poisonous liquid. This move's power is doubled if the target is poisoned.
+Vice Grip	NOR	30	55	100	Physical Attack, damage based on Atk and Def	The target is gripped and squeezed from both sides to inflict damage.
+Vine Whip	GRA	25	45	100	Physical Attack, damage based on Atk and Def	The target is struck with slender, whiplike vines to inflict damage.
+Vital Throw	FIG	10	70	-	Physical Attack, damage based on Atk and Def	The user attacks last. In return, this throw move never misses.
+Volt Switch	ELE	20	70	100	Special Attack, damage based on Sp.Atk and Sp.Def	After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+Volt Tackle	ELE	15	120	100	Physical Attack, damage based on Atk and Def	The user electrifies itself, then charges. This also damages the user quite a lot. This may leave the target with paralysis.
+Wake-Up Slap	FIG	10	70	100	Physical Attack, damage based on Atk and Def	This attack inflicts big damage on a sleeping target. This also wakes the target up, however.
+Water Gun	WAT	25	40	100	Special Attack, damage based on Sp.Atk and Sp.Def	The target is blasted with a forceful shot of water.
+Water Pledge	WAT	10	80	100	Special Attack, damage based on Sp.Atk and Sp.Def	A column of water strikes the target. When combined with its fire equivalent, the damage increases and a rainbow appears.
+Water Pulse	WAT	20	60	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user attacks the target with a pulsing blast of water. This may also confuse the target.
+Water Shuriken	WAT	20	15	100	Physical Attack, damage based on Atk and Def	The user hits the target with throwing stars two to five times in a row. This move always goes first.
+Water Sport	WAT	15	-	-	No Damage.	The user soaks itself with water. This weakens Fire-type moves for five turns.
+Water Spout	WAT	5	150	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user spouts water to damage opposing Pokémon. The lower the user’s HP, the lower the move’s power.
+Waterfall	WAT	15	80	100	Physical Attack, damage based on Atk and Def	The user charges at the target and may make it flinch. This can also be used to climb a waterfall.
+Weather Ball	NOR	10	50	100	Special Attack, damage based on Sp.Atk and Sp.Def	An attack move that varies in power and type depending on the weather.
+Whirlpool	WAT	15	35	85	Special Attack, damage based on Sp.Atk and Sp.Def	The user traps the target in a violent swirling whirlpool for four to five turns.
+Whirlwind	NOR	20	-	-	No Damage.	The target is blown away, and a different Pokémon is dragged out. In the wild, this ends the battle against a single Pokémon.
+Wide Guard	ROC	10	-	-	No Damage.	The user and its allies are protected from wide-ranging attacks for one turn.
+Wild Charge	ELE	15	90	100	Physical Attack, damage based on Atk and Def	The user shrouds itself in electricity and smashes into its target. This also damages the user a little.
+Will-O-Wisp	FIR	15	-	85	No Damage.	The user shoots a sinister, bluish-white flame at the target to inflict a burn.
+Wing Attack	FLY	35	60	100	Physical Attack, damage based on Atk and Def	The target is struck with large, imposing wings spread wide to inflict damage.
+Wish	NOR	10	-	-	No Damage.	One turn after this move is used, the target’s HP is restored by half the user’s max HP.
+Withdraw	WAT	40	-	-	No Damage.	The user withdraws its body into its hard shell, raising its Defense stat.
+Wonder Room	PSY	10	-	-	No Damage.	The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for five turns.
+Wood Hammer	GRA	15	120	100	Physical Attack, damage based on Atk and Def	The user slams its rugged body into the target to attack. This also damages the user quite a lot.
+Work Up	NOR	30	-	-	No Damage.	The user is roused, and its Attack and Sp. Atk stats increase.
+Worry Seed	GRA	10	-	100	No Damage.	A seed that causes worry is planted on the target. It prevents sleep by making the target's Ability Insomnia.
+Wrap	NOR	20	15	90	Physical Attack, damage based on Atk and Def	A long body or vines are used to wrap and squeeze the target for four to five turns.
+Wring Out	NOR	5	-	100	Special Attack, damage based on Sp.Atk and Sp.Def	The user powerfully wrings the target. The more HP the target has, the greater the move's power.
+X-Scissor	BUG	15	80	100	Physical Attack, damage based on Atk and Def	The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.
+Yawn	NOR	10	-	-	No Damage.	The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.
+Zap Cannon	ELE	5	120	50	Special Attack, damage based on Sp.Atk and Sp.Def	The user fires an electric blast like a cannon to inflict damage and cause paralysis.
+Zen Headbutt	PSY	15	80	90	Physical Attack, damage based on Atk and Def	The user focuses its willpower to its head and attacks the target. This may also make the target flinch.

@@ -1,7 +1,106 @@
 import os.path
 import urllib.request
 from html.parser import HTMLParser
+from pk import *
 from pokemon import *
+from move import *
+from ability import *
+
+def Init():
+	source = open('moves.txt')
+	
+	for line in source:
+		pieces = line.split('\t')
+		
+		move = Move()
+		move.name = pieces[0]
+		if pieces[1] == 'NOR':
+			move.type = 1
+		elif pieces[1] == 'FIG':
+			move.type = 2
+		elif pieces[1] == 'FLY':
+			move.type = 3
+		elif pieces[1] == 'POI':
+			move.type = 4
+		elif pieces[1] == 'GRO':
+			move.type = 5
+		elif pieces[1] == 'ROC':
+			move.type = 6
+		elif pieces[1] == 'BUG':
+			move.type = 7
+		elif pieces[1] == 'GHO':
+			move.type = 8
+		elif pieces[1] == 'STE':
+			move.type = 9
+		elif pieces[1] == 'FIR':
+			move.type = 10
+		elif pieces[1] == 'WAT':
+			move.type = 11
+		elif pieces[1] == 'GRA':
+			move.type = 12
+		elif pieces[1] == 'ELE':
+			move.type = 13
+		elif pieces[1] == 'PSY':
+			move.type = 14
+		elif pieces[1] == 'ICE':
+			move.type = 15
+		elif pieces[1] == 'DRA':
+			move.type = 16
+		elif pieces[1] == 'DAR':
+			move.type = 17
+		elif pieces[1] == 'FAI':
+			move.type = 18
+		else:
+			print('Failed to parse move type \'%s\'' % pieces[1])
+		move.pp = int(pieces[2])
+		move.power = 0 if pieces[3] == '-' else int(pieces[3])
+		move.accuracy = 0 if pieces[4] == '-' else int(pieces[4])
+		if pieces[5] == 'No Damage.':
+			move.category = 3
+			move.damage = 0
+		else:
+			if 'Physical Attack' in pieces[5]:
+				move.category = 1
+			elif 'Special Attack' in pieces[5]:
+				move.category = 2
+			else:
+				print('Failed to parse category \'%s\'' % pieces[5])
+			
+			if 'Sp.Atk' in pieces[5]:
+				if 'Sp.Def' in pieces[5]:
+					move.damage = 4
+				elif 'Def' in pieces[5]:
+					move.damage = 2
+				else:
+					print('Failed to parse damage \'%s\'' % pieces[5])
+			elif 'Atk' in pieces[5]:
+				if 'Sp.Def' in pieces[5]:
+					move.damage = 3
+				elif 'Def' in pieces[5]:
+					move.damage = 1
+				else:
+					print('Failed to parse damage \'%s\'' % pieces[5])
+			else:
+				print('Failed to parse damage \'%s\'' % pieces[5])
+		move.description = pieces[6]
+		
+		moves_map[move.name.lower()] = len(moves)
+		moves.append(move)
+	
+	source.close()
+	source = open('abilities.txt')
+	
+	for line in source:
+		pieces = line.split('\t')
+		
+		ability = Ability()
+		ability.name = pieces[0]
+		ability.description = pieces[1]
+		
+		abilities_map[ability.name.lower()] = len(abilities)
+		abilities.append(ability)
+	
+	source.close()
 
 def GetAndParse(number, force = False):
 	path = 'cache/%03i.shtml' % number
@@ -169,11 +268,11 @@ class PokemonParser(HTMLParser):
 							self.fooinfo_temp = 4
 						else:
 							if self.fooinfo_temp == 0:
-								self.pokemon.abilities = (data, None, None)
+								self.pokemon.abilities = (abilities_map[data.lower()], 0, 0)
 							elif self.fooinfo_temp == 2:
-								self.pokemon.abilities = (self.pokemon.abilities[0], data, None)
+								self.pokemon.abilities = (self.pokemon.abilities[0], abilities_map[data.lower()], 0)
 							elif self.fooinfo_temp == 6:
-								self.pokemon.abilities = (self.pokemon.abilities[0], self.pokemon.abilities[1], data)
+								self.pokemon.abilities = (self.pokemon.abilities[0], self.pokemon.abilities[1], abilities_map[data.lower()])
 					self.fooinfo_temp += 1
 			# 'Experience Growth'
 			elif self.cur_fooinfo == 11:
@@ -259,8 +358,8 @@ class PokemonParser(HTMLParser):
 					self.pokemon.learnset_level_xy.append(level)
 					self.pokemon.learnset_level_oras.append(level)
 				elif offset == 1:
-					self.pokemon.learnset_level_xy.append((self.pokemon.learnset_level_xy.pop(), data))
-					self.pokemon.learnset_level_oras.append((self.pokemon.learnset_level_oras.pop(), data))
+					self.pokemon.learnset_level_xy.append((self.pokemon.learnset_level_xy.pop(), moves_map[data.lower()]))
+					self.pokemon.learnset_level_oras.append((self.pokemon.learnset_level_oras.pop(), moves_map[data.lower()]))
 			# 'X & Y Level Up'
 			elif self.cur_fooinfo >= 300 and self.cur_fooinfo < 500:
 				data = data.strip()
@@ -270,7 +369,7 @@ class PokemonParser(HTMLParser):
 					level = 0 if data == '\u2014' else int(data)
 					self.pokemon.learnset_level_xy.append(level)
 				elif offset == 1:
-					self.pokemon.learnset_level_xy.append((self.pokemon.learnset_level_xy.pop(), data))
+					self.pokemon.learnset_level_xy.append((self.pokemon.learnset_level_xy.pop(), moves_map[data.lower()]))
 			# 'ORaS Level Up'
 			elif self.cur_fooinfo >= 500 and self.cur_fooinfo < 700:
 				data = data.strip()
@@ -280,14 +379,14 @@ class PokemonParser(HTMLParser):
 					level = 0 if data == '\u2014' else int(data)
 					self.pokemon.learnset_level_oras.append(level)
 				elif offset == 1:
-					self.pokemon.learnset_level_oras.append((self.pokemon.learnset_level_oras.pop(), data))
+					self.pokemon.learnset_level_oras.append((self.pokemon.learnset_level_oras.pop(), moves_map[data.lower()]))
 			# 'TM & HM Attacks'
 			elif self.cur_fooinfo >= 700 and self.cur_fooinfo < 900:
 				data = data.strip()
 				index = (self.cur_fooinfo - 700) // 3
 				offset = (self.cur_fooinfo - 700) % 3
 				if offset == 1:
-					self.pokemon.learnset_machine.append(data)
+					self.pokemon.learnset_machine.append(moves_map[data.lower()])
 			# 'Egg Moves'
 			elif self.cur_fooinfo >= 900 and self.cur_fooinfo < 1100:
 				data = data.strip()
@@ -301,28 +400,28 @@ class PokemonParser(HTMLParser):
 				index = (self.cur_fooinfo - 1100) // 8
 				offset = (self.cur_fooinfo - 1100) % 8
 				if offset == 0:
-					self.pokemon.learnset_tutor.append(data)
+					self.pokemon.learnset_tutor.append(moves_map[data.lower()])
 			# 'Special Moves'
 			elif self.cur_fooinfo >= 1300 and self.cur_fooinfo < 1500:
 				data = data.strip()
 				index = (self.cur_fooinfo - 1300) // 9
 				offset = (self.cur_fooinfo - 1300) % 9
 				if offset == 0:
-					self.pokemon.learnset_special.append(data)
+					self.pokemon.learnset_special.append(moves_map[data.lower()])
 			# 'Pre-Evolution Only Moves'
 			elif self.cur_fooinfo >= 1500 and self.cur_fooinfo < 1700:
 				data = data.strip()
 				index = (self.cur_fooinfo - 1500) // 3
 				offset = (self.cur_fooinfo - 1500) % 3
 				if offset == 0:
-					self.pokemon.learnset_evolve.append(data)
+					self.pokemon.learnset_evolve.append(moves_map[data.lower()])
 			# 'Transfer Only Moves'
 			elif self.cur_fooinfo >= 1700 and self.cur_fooinfo < 1900:
 				data = data.strip()
 				index = (self.cur_fooinfo - 1700) // 2
 				offset = (self.cur_fooinfo - 1700) % 2
 				if offset == 0:
-					self.pokemon.learnset_transfer.append(data)
+					self.pokemon.learnset_transfer.append(moves_map[data.lower()])
 			# 'Stats'
 			elif self.cur_fooinfo >= 1901 and self.cur_fooinfo < 1907:
 				b = self.pokemon.base_stats
