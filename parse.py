@@ -135,6 +135,42 @@ class PokemonParser(HTMLParser):
 							elif self.fooinfo_temp == 6:
 								self.pokemon.abilities = (self.pokemon.abilities[0], self.pokemon.abilities[1], data)
 					self.fooinfo_temp += 1
-		if self.cen_enter_level != -1:
-			pass
+			# 'Experience Growth'
+			elif self.cur_fooinfo == 11:
+				if not 'Points' in data:
+					if data == 'Slow':
+						self.pokemon.exp_group = PkExpGroup['slow']
+					elif data == 'Medium Slow':
+						self.pokemon.exp_group = PkExpGroup['mediumslow']
+					elif data == 'Medium Fast':
+						self.pokemon.exp_group = PkExpGroup['mediumfast']
+					elif data == 'Fast':
+						self.pokemon.exp_group = PkExpGroup['fast']
+					elif data == 'Erratic':
+						self.pokemon.exp_group = PkExpGroup['erratic']
+					elif data == 'Fluctuating':
+						self.pokemon.exp_group = PkExpGroup['fluctuating']
+					else:
+						print('Failed to parse experience group \'%s\'' % data)
+			# 'Base Happiness'
+			elif self.cur_fooinfo == 12:
+				self.pokemon.base_friendship = int(data)
+			# 'Effort Values Earned'
+			elif self.cur_fooinfo == 13:
+				n = int(data[:1])
+				y = self.pokemon.ev_yield
+				if 'HP' in data:
+					self.pokemon.ev_yield = (n, y[1], y[2], y[3], y[4], y[5])
+				elif 'Sp. Attack' in data:
+					self.pokemon.ev_yield = (y[0], y[1], y[2], n, y[4], y[5])
+				elif 'Sp. Defense' in data:
+					self.pokemon.ev_yield = (y[0], y[1], y[2], y[3], n, y[5])
+				elif 'Attack' in data:
+					self.pokemon.ev_yield = (y[0], n, y[2], y[3], y[4], y[5])
+				elif 'Defense' in data:
+					self.pokemon.ev_yield = (y[0], y[1], n, y[3], y[4], y[5])
+				elif 'Speed' in data:
+					self.pokemon.ev_yield = (y[0], y[1], y[2], y[3], y[4], n)
+				else:
+					print('Failed to parse EV yield \'%s\'' % data)
 

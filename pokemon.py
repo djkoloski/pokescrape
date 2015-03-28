@@ -160,7 +160,7 @@ class Pokemon:
 		self.weight = 0.0
 		self.base_exp_yield = 0
 		self.base_friendship = 0
-		self.leveling_rate = 0
+		self.exp_group = 0
 		self.ev_yield = (0, 0, 0, 0, 0, 0)
 		self.body_style = 0
 		self.color = 0
@@ -193,7 +193,7 @@ class Pokemon:
 			'\nWeight: %f' % self.weight +
 			'\nBase Exp Yield: %i' % self.base_exp_yield +
 			'\nBase Friendship: %i' % self.base_friendship +
-			'\nLeveling Rate: %i (%s)' % (self.leveling_rate, PkIExpGroup[self.leveling_rate]) +
+			'\nExp Group: %i (%s)' % (self.exp_group, PkIExpGroup[self.exp_group]) +
 			'\nEV Yield: %i/%i/%i/%i/%i/%i' % self.ev_yield +
 			'\nBody Style: %i' % self.body_style +
 			'\nColor: %i (%s)' % (self.color, PkIColor[self.color]) +
