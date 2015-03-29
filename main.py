@@ -123,7 +123,7 @@ def main():
 		"tutor":%s,
 		"special":%s,
 		"evolve":%s,
-		"transfer":%s,
+		"transfer":%s
 	}
 }%s
 """ % (

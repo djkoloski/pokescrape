@@ -34,8 +34,6 @@ class Pokemon:
 		self.learnset_special = []
 		self.learnset_evolve = []
 		self.learnset_transfer = []
-		self.evolve_from = []
-		self.evolve_into = []
 	
 	def __str__(self):
 		return ('Dex #: %i' % self.national_dex_number +
