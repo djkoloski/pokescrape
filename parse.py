@@ -132,7 +132,7 @@ def Init():
 		moves.append(move)
 	
 	source.close()
-	source = open('abilities.txt')
+	source = open('abilities.txt', encoding='utf8')
 	
 	for line in source:
 		pieces = line.split('\t')
@@ -147,6 +147,9 @@ def Init():
 	source.close()
 
 def GetAndParse(number, force = False):
+	if not os.path.exists('cache'):
+		os.makedirs('cache')
+
 	path = 'cache/%03i.shtml' % number
 	if force == True or os.path.isfile(path) == False:
 		url = 'http://www.serebii.net/pokedex-xy/%03i.shtml' % number
@@ -158,7 +161,7 @@ def GetAndParse(number, force = False):
 	else:
 		print('Using already-fetched file \'%s\'' % path)
 	
-	source = open(path, 'r')
+	source = open(path, 'r', encoding='utf8')
 	parser = PokemonParser()
 	parser.feed(source.read())
 	source.close()
@@ -173,7 +176,7 @@ def GetAndParse(number, force = False):
 
 class PokemonParser(HTMLParser):
 	def __init__(self):
-		super().__init__(strict=False, convert_charrefs=True)
+		super().__init__(convert_charrefs=True)
 		
 		self.pokemon = Pokemon()
 		

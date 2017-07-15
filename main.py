@@ -2,6 +2,7 @@ import parse
 from pk import *
 from move import *
 from ability import *
+import os
 
 # XXX Hacks around bugs in Serebii's HTML is marked with a comment beginning with XXX
 # TODO Some moves may be missing from the source I got the moves file from (esp. ones that do nothing)
@@ -31,7 +32,9 @@ problematic_pokemon = [386, 413, 487, 492, 550, 555, 641, 642, 645, 646, 647, 64
 def main():
 	parse.Init()
 	
-	out = open('data/pokedex.json', 'w')
+	if not os.path.exists('data'):
+		os.makedirs('data')
+	out = open('data/pokedex.json', 'w', encoding='utf8')
 	
 	out.write('{\n')
 	
